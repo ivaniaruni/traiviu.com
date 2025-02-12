@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+body{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Particle Background Style */
+.particle-background, .particle-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.particle{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle, rgb(0, 255, 123) 0%, rgba(0, 255, 153, 0.5) 50%, rgba(0, 255, 255, 0) 100%);
+    border-radius: 50%;
+    animation: moveParticle 30s ease-in-out infinite, glowParticle 10s ease-in-out infinite;
+    mix-blend-mode: screen;
+}
+.particle:nth-child(1){
+    animation-delay: 0s, 0s;
+}
+.particle:nth-child(2){
+    animation-delay: 1s, 0.5s;
+}
+.particle:nth-child(3){
+    animation-delay: 2s, 1s;
+}
+.particle:nth-child(4){
+    animation-delay: 3s, 1.5s;
+}
+.particle:nth-child(5){
+    animation-delay: 4s, 2s;
+}
+.particle:nth-child(6){
+    animation-delay: 5s, 2.5s;
+}
+.particle:nth-child(7){
+    animation-delay: 6s, 3s;
+}
+
+/* Keyframes */
+@keyframes moveParticle{
+    0%{
+        transform: translate(0, 0) scale(0.8);
+    }
+    25%{
+        transform: translate(40vw, -20vh) scale(1.2);
+    }
+    50%{
+        transform: translate(-30vw, 30vh) scale(1);
+    }
+    75%{
+        transform: translate(20vw, 40vh) scale(1.1);
+    }
+    100%{
+        transform: translate(0, 0) scale(0.8);
+    }
+}
+
+@keyframes glowParticle{
+    0%, 100%{
+        opacity: 0.3;
+        box-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.6);
+    }
+    50%{
+        opacity: 0.6;
+        box-shadow: 0 0 30px rgba(0, 255, 255, 1), 0 0 60px rgba(0, 255, 255, 0.9);
+    }
+}
+
+/* Logo Style */
+.logo{
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+}
+.logo h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(215, 215, 215);
+}
+.logo .logo-text{
+    font-weight: 400;
+    margin-left: 0.1rem;
+    color: #85A98F;
+}
+
+/* Countdown Style */
+#countdown{
+    font-size: 5em;
+    margin: 50px 0;
+    font-weight: bold;
+    color: #85A98F;
+    z-index: 10;
+}
+#access-form{
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 2;
+}
+input{
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #85A98F;
+    border-radius: 5px;
+    background: #121212;
+    color: rgb(215, 215, 215);
+    margin-right: 10px;
+}
+button{
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #85A98F;
+    background: #93a7993d;
+    border: 2px solid #85A98F;
+    border-radius: 5px;
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+}
+button:hover{
+    background: #85A98F;
+    color: black;
+}
+
+@media (max-width: 1024px){
+    #countdown{
+        font-size: 4em;
+    }
+}
+
+@media (max-width: 768px){
+    #countdown{
+        font-size: 3em;
+    }
+    input, button{
+        width: 40%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px){
+    #countdown{
+        font-size: 2em;
+    }
+    input, button{
+        margin-top: 10px;
+    }
+}
+
+/* Loading Style */
+#loading-screen{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2000;
+}  
+#logo-loading{
+    width: 40px;
+    animation: jump 1.5s ease-in-out infinite;
+}
+@keyframes jump{
+    0%{
+      transform: translateY(0);
+    }
+    30%{
+      transform: translateY(-20px);
+    }
+    50%{
+      transform: translateY(0);
+    }
+    70%{
+      transform: translateY(-20px);
+    }
+    100%{
+      transform: translateY(0);
+    }
+} 
+
+/* Eye Style */
+input::-ms-reveal, 
+input::-ms-clear {
+  display: none;
+}
