@@ -205,6 +205,12 @@ li a .badge{
     font-size: 12px;
     font-weight: 800;
 }
+@media (min-width: 300px){
+    li a .badge{
+        font-size: 5px;
+        margin-left: -22px;
+    }
+}
 @media (min-width: 400px){
     li a .badge{
         font-size: 6px;

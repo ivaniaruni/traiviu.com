@@ -1,5 +1,454 @@
 /* Responsive Style */
 /* Min-Width */
+@media (min-width: 320px){
+    /* Scroll Style */
+    ::-webkit-scrollbar{
+        width: 6px;
+    }
+
+    /* Navbar Change */
+    .particle{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    .logo h1{
+        font-size: 0rem;
+    }
+    #navbar{
+        gap: 0.4rem;
+    }
+    #navbar li a{
+        font-size: 0.35rem;
+        padding: 0.5rem;
+    }
+
+    /* Header Change */
+    .featured-series{
+        margin-top: 1590px;
+        margin-left: 1%;
+    }
+    .featured-series .series-title{
+        font-size: 0.8rem;
+    }
+    .featured-series .producers{
+        font-size: 0.4rem;
+        margin-bottom: -2%;
+    }
+    .featured-series .description{
+        margin-top: -4%;
+        font-size: 0.3rem;
+    }
+    .featured-series .watch-button{
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .featured-series .watch-button button{
+        width: 4rem;
+        height: 1.1rem;
+        font-size: 0.3rem;
+        font-weight: 500;
+        border: 0.09rem solid #85A98F;
+        border-radius: 3%;
+    }
+
+    /* Upcoming Style */
+    .upcoming{
+        width: 145%;
+        align-items: center;
+        margin-left: -2.5%;
+    }
+    .upcoming h3{
+        font-size: 0.5rem;
+        margin-left: 4%;
+    }
+    .series-card{
+        display: inline-block;
+        align-items: center;
+        width: 20%;
+        margin-top: -3%;
+        margin-bottom: 8%;
+        margin-left: 5%;
+        margin-right: 6%;
+    }
+    .series-card .poster{
+        width: 5rem;
+        height: 7.5rem;
+        border-radius: 1.4rem;
+    }
+    .series-card .buttons{
+        margin-left: 2.4rem;
+        margin-top: 0.8rem;
+    }
+    .trailer-btn{
+        padding: 0.1rem 0.50rem;
+        margin-right: 0.5rem;
+        margin-left: -0.7rem;
+        font-size: 0.4rem;
+        font-weight: 300;
+        border-radius: 0.13rem;
+        border: 0.08rem solid rgb(200, 200, 200);
+    }
+    .notify-btn{
+        height: 0.6rem;
+    }
+    .notify-btn img{
+        vertical-align: middle;
+        width: 0.6rem;
+        margin-top: 20%;
+    }
+
+    /* Trending Changes */
+    .trending{
+        width: 145%;
+        margin-left: -2.5%;
+    }
+    .trending h3{
+        font-size: 0.6rem;
+        margin-left: 4%;
+    }
+    .trending .series-card{
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 8%;
+        margin-left: 5%;
+        margin-right: 6%;
+    }
+    .trailer-btn_info{
+        padding: 0.08rem 0.4rem;
+        font-size: 0.4rem;
+        font-weight: 300;
+        border-radius: 0.13rem;
+        border: 0.08rem solid #85A98F;
+    }
+
+    /* Missed Changes */
+    .missed{
+        width: 150%;
+        margin-left: -1%;
+    }
+    .missed h3{
+        font-size: 0.6rem;
+        margin-left: 4%;
+    }
+    .missed .series-card{
+        width: 31%;
+        margin-top: -5%;
+        margin-left: 1%;
+        margin-right: 0%;
+        margin-bottom: 14%;
+    }
+    .missed .series-card .poster{
+        position: relative;
+        width: 5.5em;
+        height: 9rem;
+        border-radius: 1.5rem;
+    }
+    .missed .buttons{
+        margin-left: 10%;
+        margin-top: 11%;
+        font-size: 1rem;
+    }
+    .missed .trailer-btn{
+        padding: 0.08rem 0.8rem;
+    }
+    .missed .trailer-btn_info{
+        padding: 0.08rem 0.6rem;
+    }
+    /* Footer Changes */
+    .final-part{
+        font-size: 0.6rem;
+    }
+    .social-media a{
+        margin: 0 0.3rem;
+    }
+    .social-media img{
+        width: 1.2rem;
+    }
+    .credits{
+        font-size: 0.5rem;
+    }
+
+    .modal-body{
+        display: block;
+        gap: 20px;
+        height: 300px;
+    }
+    .modal-video{
+        left: -11%;
+        top: -7%;
+        height: 60%;
+        width: 122%;
+    }
+    .modal .close-btn{
+        font-size: 20px;
+        margin-top: -20px;
+        left: 87%;
+    }
+    .modal-info{
+        margin-top: -16%;
+    }
+    .modal-info h1{
+        font-size: 8px;
+        margin-bottom: 0%;
+    }
+    .modal-info p{
+        font-size: 6px;
+        margin-bottom: -1%;
+    }
+    .modal-info .clasification{
+        font-size: 8px;
+        margin-top: 5%;
+    }
+    #notifyModal .modal-content{
+        font-size: 8px;
+        height: 230px;
+    }
+    #notifyModal .modal-content img{
+        width: 18px;
+    }
+    #notifyModal p{
+       font-size: 6px;
+    }
+    #notifyModal input{
+        margin-top: -8%;
+        width: 80%;
+        font-size: 6px;
+    }
+    #notifyModal button{
+        width: 80px;
+        height: 35px;
+        border: solid 1.5px;
+        font-size: 8px;
+    }
+    #notifyModal .close-btn{
+        margin-top: -7%;
+        margin-left: -2%;
+    }
+}
+@media (min-width: 350px){
+        /* Scroll Style */
+    ::-webkit-scrollbar{
+        width: 6px;
+    }
+
+    /* Navbar Change */
+    .particle{
+        width: 0.5rem;
+        height: 0.5rem;
+    }
+    .logo h1{
+        font-size: 0rem;
+    }
+    #navbar{
+        gap: 0.4rem;
+    }
+    #navbar li a{
+        font-size: 0.35rem;
+        padding: 0.5rem;
+    }
+
+    /* Header Change */
+    .featured-series{
+        margin-top: 1605px;
+    }
+    .featured-series .series-title{
+        font-size: 0.8rem;
+    }
+    .featured-series .producers{
+        font-size: 0.4rem;
+        margin-bottom: -2%;
+    }
+    .featured-series .description{
+        margin-top: -4%;
+        font-size: 0.3rem;
+    }
+    .featured-series .watch-button{
+        margin-top: -5%;
+        margin-bottom: 10%;
+    }
+    .featured-series .watch-button button{
+        width: 4rem;
+        height: 1.1rem;
+        font-size: 0.3rem;
+        font-weight: 500;
+        border: 0.09rem solid #85A98F;
+        border-radius: 3%;
+    }
+
+    /* Upcoming Style */
+    .upcoming{
+        width: 145%;
+        align-items: center;
+        margin-left: -5.5%;
+    }
+    .upcoming h3{
+        font-size: 0.5rem;
+        margin-left: 4%;
+    }
+    .series-card{
+        display: inline-block;
+        align-items: center;
+        width: 20%;
+        margin-top: -0.5%;
+        margin-bottom: 8%;
+        margin-left: 5.8%;
+        margin-right: 6%;
+    }
+    .series-card .poster{
+        width: 5rem;
+        height: 7.5rem;
+        border-radius: 1.4rem;
+    }
+    .series-card .buttons{
+        margin-left: 2rem;
+        margin-top: 0.6rem;
+    }
+    .trailer-btn{
+        padding: 0.1rem 0.50rem;
+        margin-right: 0.5rem;
+        margin-left: -0.7rem;
+        font-size: 0.4rem;
+        font-weight: 300;
+        border-radius: 0.13rem;
+        border: 0.08rem solid rgb(200, 200, 200);
+    }
+    .notify-btn{
+        height: 0.6rem;
+    }
+    .notify-btn img{
+        vertical-align: middle;
+        width: 0.6rem;
+        margin-top: 20%;
+    }
+
+    /* Trending Changes */
+    .trending{
+        width: 145%;
+        margin-left: -5.5%;
+    }
+    .trending h3{
+        font-size: 0.6rem;
+        margin-left: 4%;
+    }
+    .trending .series-card{
+        width: 20%;
+        margin-top: 1%;
+        margin-bottom: 8%;
+        margin-left: 5.8%;
+        margin-right: 6%;
+    }
+    .trailer-btn_info{
+        padding: 0.08rem 0.4rem;
+        font-size: 0.4rem;
+        font-weight: 300;
+        border-radius: 0.13rem;
+        border: 0.08rem solid #85A98F;
+    }
+
+    /* Missed Changes */
+    .missed{
+        width: 150%;
+        margin-left: -4%;
+    }
+    .missed h3{
+        font-size: 0.6rem;
+        margin-left: 4%;
+    }
+    .missed .series-card{
+        width: 31%;
+        margin-top: -5%;
+        margin-left: 1.5%;
+        margin-right: 0%;
+        margin-bottom: 14%;
+    }
+    .missed .series-card .poster{
+        position: relative;
+        width: 5.5em;
+        height: 9rem;
+        border-radius: 1.5rem;
+    }
+    .missed .buttons{
+        margin-left: -1%;
+        margin-top: 11%;
+        font-size: 1rem;
+    }
+    .missed .trailer-btn{
+        padding: 0.08rem 0.8rem;
+    }
+    .missed .trailer-btn_info{
+        padding: 0.08rem 0.6rem;
+    }
+    /* Footer Changes */
+    .final-part{
+        font-size: 0.6rem;
+    }
+    .social-media a{
+        margin: 0 0.3rem;
+    }
+    .social-media img{
+        width: 1.2rem;
+    }
+    .credits{
+        font-size: 0.5rem;
+    }
+
+    .modal-body{
+        display: block;
+        gap: 20px;
+        height: 300px;
+    }
+    .modal-video{
+        left: -11%;
+        top: -7%;
+        height: 60%;
+        width: 122%;
+    }
+    .modal .close-btn{
+        font-size: 20px;
+        margin-top: -20px;
+        left: 87%;
+    }
+    .modal-info{
+        margin-top: -13%;
+    }
+    .modal-info h1{
+        font-size: 8px;
+        margin-bottom: 0%;
+    }
+    .modal-info p{
+        font-size: 6px;
+        margin-bottom: -1%;
+    }
+    .modal-info .clasification{
+        font-size: 8px;
+        margin-top: 5%;
+    }
+    #notifyModal .modal-content{
+        font-size: 8px;
+        height: 230px;
+    }
+    #notifyModal .modal-content img{
+        width: 18px;
+    }
+    #notifyModal p{
+       font-size: 6px;
+    }
+    #notifyModal input{
+        margin-top: -8%;
+        width: 80%;
+        font-size: 6px;
+    }
+    #notifyModal button{
+        width: 80px;
+        height: 35px;
+        border: solid 1.5px;
+        font-size: 8px;
+    }
+    #notifyModal .close-btn{
+        margin-top: -7%;
+        margin-left: -2%;
+    }
+}
 @media (min-width: 400px){
     /* Scroll Style */
     ::-webkit-scrollbar{
@@ -23,6 +472,9 @@
     }
 
     /* Header Change */
+    .featured-series{
+        margin-top: 1885px;
+    }
     .featured-series .series-title{
         font-size: 1.1rem;
     }
@@ -181,7 +633,7 @@
         left: 87%;
     }
     .modal-info{
-        margin-top: -12%;
+        margin-top: -13%;
     }
     .modal-info h1{
         font-size: 8px;
