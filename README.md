@@ -1,41 +1,25 @@
-# Traiviu.com - Movie Trailers Repository
+# 🎬 Best Trailers of the Month  
 
-Traiviu.com is a platform that houses a collection of the most popular and trending movie trailers released each month. Curated for movie enthusiasts and cinephiles, it provides easy access to the latest trailers for upcoming films that have generated the most views and excitement. The content is updated monthly, with all trailers uploaded in English.
+## 📌 Description  
+This website is dedicated to showcasing the **best trailers of the month** for movies and TV series. It features an interactive and visually engaging design for an immersive experience.  
 
-Technologies used:
-- **HTML**: To structure the web pages.
-- **CSS**: For styling and layout.
-- **JavaScript**: For interactive elements and functionality.
-- **PHP**: For server-side scripting and dynamic content.
+## 🚀 Technologies Used  
+- **HTML, CSS, JavaScript** → For structure, styling, and interactivity.  
+- **Database** → To store user email addresses.  
 
-## Table of Contents
+## ✨ Features  
+✅ **Monthly selection of the best trailers**  
+✅ **3D effect on posters**: Each movie has two images (one normal and one cropped). When hovering over the poster, the cropped image scales up, creating a cool 3D effect.  
+✅ **Modern and dynamic interface**  
 
-- [About](#about)
-- [Features](#features)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+## ⏳ Development Time  
+This project was developed in **approximately 1 month and 1-2 weeks**.  
 
-## About
+## 📩 Contact & Social Media  
+Feel free to reach out if you have suggestions or want to contribute!  
 
-Traiviu.com is dedicated to providing a curated list of the best and most-watched movie trailers from each month. This platform is perfect for anyone interested in the latest trends in cinema and movie marketing. Every month, fresh trailers are added, showcasing the top films that are creating a buzz around the world.
-
-## Features
-
-- **Monthly Updates**: New movie trailers are added every month.
-- **Trending Trailers**: Only the most viewed and talked-about trailers are included.
-- **High-Quality Content**: All trailers are uploaded in high-definition and in English.
-- **User-Friendly**: Easy access and organization for users to explore the latest trailers.
-- **Responsive Design**: Built with HTML, CSS, and JavaScript to work on any device.
-- **Dynamic Content**: PHP is used for dynamic content loading and server-side functionalities.
-
-## Usage
-
-To access and watch the trailers, simply browse through the monthly collections. The trailers are organized by release date, so you can quickly find the latest additions.
-
-### How to Use the Repository
-
-1. Clone the repository to your local machine using the following command:
-
-   ```bash
-   git clone https://github.com/ivaniaruni/traiviu-web.git
+📧 Email: [iarunichevivan@gmail.com]  
+🐦 Twitter: [https://x.com/iaruni_kbron]  
+📸 Instagram: [https://www.instagram.com/ivan_iaruni/]  
+💻 LinkedIn: [https://www.linkedin.com/in/ivan-iarunichev-83056b307/]  
+🔗 Linktree: [https://linktr.ee/ivanzd_x](https://linktr.ee/ivanzd_x)  
