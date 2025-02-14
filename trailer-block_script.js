@@ -281,7 +281,7 @@ function openModal(seriesKey) {
     modalDescription.textContent = series.description;
     modalDirectors.innerHTML = `<strong>Directors:</strong> ${series.directors}`;
     modalProducers.innerHTML = `<strong>Producers:</strong> ${series.producers}`;
-    modalVideo.src = `https://www.youtube.com/embed/${series.videoId}?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0&hl=en&cc_lang_pref=none`;
+    modalVideo.src = `https://www.youtube.com/embed/${series.videoId}?autoplay=1&mute=1&playsinline=1&controls=1&modestbranding=1&rel=0&showinfo=0`;
     modal.style.display = "flex";
     modal.classList.add("animated");
     modalWhereToWatch.innerHTML = `<strong>View in:</strong> ${series.whereToWatch}`;
@@ -293,6 +293,10 @@ function openModal(seriesKey) {
         modal.style.top = "0%";
         modal.style.opacity = "1";
     }, 10);
+
+    setTimeout(() => {
+        modalVideo.contentWindow.postMessage('{"event":"command","func":"playVideo","args":""}', '*');
+    }, 1000);
 }
 
 // Function to close the modal

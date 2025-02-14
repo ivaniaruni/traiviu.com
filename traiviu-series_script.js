@@ -418,3 +418,5 @@ document.addEventListener('keydown', event => {
         event.preventDefault();
     }
 });
+
+document.addEventListener("touchstart", function () {}, { passive: true });

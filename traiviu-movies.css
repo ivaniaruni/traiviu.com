@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url(responsive-organize_style.css);
+@import url(/css/responsive-organize_style.css);
 *{
     margin: 0;
     padding: 0;
@@ -205,6 +205,12 @@ li a .badge{
     font-size: 12px;
     font-weight: 800;
 }
+@media (min-width: 300px){
+    li a .badge{
+        font-size: 5px;
+        margin-left: -22px;
+    }
+}
 @media (min-width: 400px){
     li a .badge{
         font-size: 6px;
@@ -359,7 +365,6 @@ header{
     border-radius: 3px;
     transition: background 0.3s, color 0.3s;
     cursor: pointer;
-    z-index: 100;
 }
 .trailer-btn:hover:hover{
     background: rgb(200, 200, 200);
