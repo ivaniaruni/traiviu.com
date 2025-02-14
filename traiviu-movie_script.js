@@ -176,15 +176,16 @@ notifyForm.addEventListener("submit", async (e) => {
     }
 
     try {
-        const response = await fetch("https://traiviu.com/save-email.php", {
+        const response = await fetch("http://localhost/my_project/save-email.php", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email })
         });
-
+    
         const data = await response.json();
+    
         alert(data.message);
-
+    
         if (data.status === "success") {
             localStorage.setItem("userEmail", email);
             notifyModal.style.display = "none";
@@ -192,8 +193,8 @@ notifyForm.addEventListener("submit", async (e) => {
         }
     } catch (error) {
         console.error("Error:", error);
-        alert("There was an error, please try again.");
-    }
+        alert("Something went wrong. Please try again.");
+    }    
 });
 
 function validateEmail(email) {

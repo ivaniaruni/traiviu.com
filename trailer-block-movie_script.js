@@ -281,7 +281,7 @@ function openModal(seriesKey) {
     modalDescription.textContent = series.description;
     modalDirectors.innerHTML = `<strong>Directors:</strong> ${series.directors}`;
     modalProducers.innerHTML = `<strong>Producers:</strong> ${series.producers}`;
-    modalVideo.src = `https://www.youtube.com/embed/${series.videoId}?autoplay=1&controls=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0&hl=en&cc_lang_pref=none`;
+    modalVideo.src = `https://www.youtube.com/embed/${series.videoId}?autoplay=1&controls=1&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&cc_load_policy=0&hl=en&cc_lang_pref=none`;
     modal.style.display = "flex";
     modal.classList.add("animated");
     modalWhereToWatch.innerHTML = `<strong>View in:</strong> ${series.whereToWatch}`;
@@ -301,7 +301,6 @@ closeBtn.addEventListener("click", () => {
     modal.style.top = "-100%";
     modal.style.opacity = "0";
     setTimeout(() => {
-        modal.style.display = "none";
         modalVideo.src = "";
     }, 500);
 });
@@ -313,7 +312,6 @@ window.addEventListener("click", (e) => {
         modal.style.top = "-100%";
         modal.style.opacity = "0";
         setTimeout(() => {
-            modal.style.display = "none";
             modalVideo.src = "";
         }, 500);
     }

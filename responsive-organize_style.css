@@ -24,8 +24,8 @@
 
     /* Header Change */
     .featured-series{
-        margin-top: 1590px;
-        margin-left: 1%;
+        margin-top: 1595px;
+        margin-left: -1.5%;
     }
     .featured-series .series-title{
         font-size: 0.8rem;
@@ -55,7 +55,7 @@
     .upcoming{
         width: 145%;
         align-items: center;
-        margin-left: -2.5%;
+        margin-left: -6.5%;
     }
     .upcoming h3{
         font-size: 0.5rem;
@@ -100,7 +100,7 @@
     /* Trending Changes */
     .trending{
         width: 145%;
-        margin-left: -2.5%;
+        margin-left: -6.5%;
     }
     .trending h3{
         font-size: 0.6rem;
@@ -124,7 +124,7 @@
     /* Missed Changes */
     .missed{
         width: 150%;
-        margin-left: -1%;
+        margin-left: -5%;
     }
     .missed h3{
         font-size: 0.6rem;
@@ -249,7 +249,7 @@
 
     /* Header Change */
     .featured-series{
-        margin-top: 1605px;
+        margin-top: 1730px;
     }
     .featured-series .series-title{
         font-size: 0.8rem;
@@ -279,7 +279,7 @@
     .upcoming{
         width: 145%;
         align-items: center;
-        margin-left: -5.5%;
+        margin-left: -7%;
     }
     .upcoming h3{
         font-size: 0.5rem;
@@ -289,18 +289,18 @@
         display: inline-block;
         align-items: center;
         width: 20%;
-        margin-top: -0.5%;
+        margin-top: -1.5%;
         margin-bottom: 8%;
         margin-left: 5.8%;
-        margin-right: 6%;
+        margin-right: 5%;
     }
     .series-card .poster{
-        width: 5rem;
-        height: 7.5rem;
+        width: 5.5rem;
+        height: 8.5rem;
         border-radius: 1.4rem;
     }
     .series-card .buttons{
-        margin-left: 2rem;
+        margin-left: 2.5rem;
         margin-top: 0.6rem;
     }
     .trailer-btn{
@@ -324,7 +324,7 @@
     /* Trending Changes */
     .trending{
         width: 145%;
-        margin-left: -5.5%;
+        margin-left: -7%;
     }
     .trending h3{
         font-size: 0.6rem;
@@ -335,7 +335,7 @@
         margin-top: 1%;
         margin-bottom: 8%;
         margin-left: 5.8%;
-        margin-right: 6%;
+        margin-right: 5%;
     }
     .trailer-btn_info{
         padding: 0.08rem 0.4rem;
@@ -348,7 +348,7 @@
     /* Missed Changes */
     .missed{
         width: 150%;
-        margin-left: -4%;
+        margin-left: -5%;
     }
     .missed h3{
         font-size: 0.6rem;
@@ -358,13 +358,13 @@
         width: 31%;
         margin-top: -5%;
         margin-left: 1.5%;
-        margin-right: 0%;
+        margin-right: -1%;
         margin-bottom: 14%;
     }
     .missed .series-card .poster{
         position: relative;
-        width: 5.5em;
-        height: 9rem;
+        width: 6em;
+        height: 10rem;
         border-radius: 1.5rem;
     }
     .missed .buttons{

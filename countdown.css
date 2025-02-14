@@ -161,6 +161,14 @@ button:hover{
     input, button{
         margin-top: 10px;
     }
+    input{
+        width: 30%;
+        font-size: 0.8rem;
+    }
+    button{
+        width: 25%;
+        font-size: 0.8rem;
+    }
 }
 
 /* Loading Style */

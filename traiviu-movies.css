@@ -359,6 +359,7 @@ header{
     border-radius: 3px;
     transition: background 0.3s, color 0.3s;
     cursor: pointer;
+    z-index: 100;
 }
 .trailer-btn:hover:hover{
     background: rgb(200, 200, 200);
