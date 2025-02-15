@@ -193,7 +193,7 @@ notifyForm.addEventListener("submit", async (e) => {
         }
     } catch (error) {
         console.error("Error:", error);
-        alert("Something went wrong. Please try again.");
+        alert("The database is not working at this time.");
     }    
 });
 
@@ -201,100 +201,11 @@ function validateEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
 
-function updateNotifyButtons() {
-    const email = localStorage.getItem("userEmail");
-    const notifications = JSON.parse(localStorage.getItem("notifications")) || {};
-
-    document.querySelectorAll(".notify-btn").forEach((btn) => {
-        const seriesId = btn.dataset.seriesId;
-        if (email && notifications[seriesId]) {
-            btn.querySelector("img").src = "image/icon/notify-active.png";
-            btn.querySelector("img").alt = "Notification activated";
-        } else {
-            btn.querySelector("img").src = "image/icon/notify.png";
-            btn.querySelector("img").alt = "Activate notification";
-        }
-    });
-}
-
-function handleNotifyButtonClick(button) {
-    const email = localStorage.getItem("userEmail");
-    const seriesId = button.dataset.seriesId;
-    let notifications = JSON.parse(localStorage.getItem("notifications")) || {};
-
-    /* openNotifyModal();*/
-
-    if (!email) {
-        openNotifyModal();
-        return;
-    }
-
-    if (notifications[seriesId]) {
-        delete notifications[seriesId];
-    } else {
-        notifications[seriesId] = true;
-    }
-
-    localStorage.setItem("notifications", JSON.stringify(notifications));
-    updateNotifyButtons();
-}
-
-window.addEventListener("click", (e) => {
-    if (e.target === notifyModal) {
-        notifyModal.style.display = "none";
+document.getElementById("email").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        submitNotifyForm(event);
     }
 });
-// Function to close the modal
-closeBtn.addEventListener("click", () => {
-    notifyModal.style.transition = "top 0.5s ease-in-out, opacity 0.5s ease-in-out";
-    notifyModal.style.top = "-100%";
-    notifyModal.style.opacity = "0";
-    setTimeout(() => {
-        notifyModal.style.display = "none";
-    }, 500);
-});
-
-notifyClose.addEventListener("click", () => {
-    notifyModal.style.transition = "top 0.5s ease-in-out, opacity 0.5s ease-in-out";
-    notifyModal.style.top = "-100%";
-    setTimeout(() => notifyModal.style.display = "none", 500);
-});
-
-notifyForm.addEventListener("submit", async (e) => {
-    e.preventDefault();
-
-    const email = document.getElementById("email").value.trim();
-
-    if (!validateEmail(email)) {
-        alert("Invalid email format.");
-        return;
-    }
-
-    try {
-        const response = await fetch("http://localhost/save-email.php", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ email })
-        });
-    
-        const data = await response.json();
-    
-        alert(data.message);
-    
-        if (data.status === "success") {
-            localStorage.setItem("userEmail", email);
-            notifyModal.style.display = "none";
-            updateNotifyButtons();
-        }
-    } catch (error) {
-        console.error("Error:", error);
-        alert("Something went wrong. Please try again.");
-    }    
-});
-
-function validateEmail(email) {
-    return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-}
 
 function updateNotifyButtons() {
     const email = localStorage.getItem("userEmail");

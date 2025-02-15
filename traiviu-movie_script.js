@@ -193,13 +193,19 @@ notifyForm.addEventListener("submit", async (e) => {
         }
     } catch (error) {
         console.error("Error:", error);
-        alert("Something went wrong. Please try again.");
+        alert("The database is not working at this time.");
     }    
 });
 
 function validateEmail(email) {
     return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
 }
+
+document.getElementById("email").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        submitNotifyForm(event);
+    }
+});
 
 function updateNotifyButtons() {
     const email = localStorage.getItem("userEmail");

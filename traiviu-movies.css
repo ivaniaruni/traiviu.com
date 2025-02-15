@@ -406,7 +406,7 @@ body.modal-open{
     padding: 20px;
     border-radius: 8px;
     text-align: center;
-    z-index: 2000;
+    z-index: 1000;
 }
 
 .modal-content input{
@@ -561,7 +561,7 @@ body.modal-open{
     height: 100%;
     justify-content: center;
     align-items: center;
-    z-index: 10;
+    z-index: 10000;
     animation: slideDown 0.5s ease-out;
 }
 .modal-content{
@@ -600,6 +600,7 @@ body.modal-open{
     display: flex;
     gap: 20px;
     height: 500px;
+    z-index: 1000;
 }
 .modal-video{
     flex: 2;
@@ -607,12 +608,13 @@ body.modal-open{
     border-radius: 5px;
     overflow: hidden;
     position: relative;
+    z-index: 2000;
 }
 .modal-video iframe{
     width: 100%;
     height: 100%;
     object-fit: cover;
-    pointer-events: none;
+    z-index: 10000;
 }
 .modal-info{
     flex: 1;

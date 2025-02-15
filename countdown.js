@@ -25,6 +25,13 @@ function checkAccess() {
     }
 }
 
+// Ejecutar checkAccess() al presionar Enter en el input
+document.getElementById("code-input").addEventListener("keydown", function(event) {
+    if (event.key === "Enter") {
+        checkAccess();
+    }
+});
+
 setInterval(updateCountdown, 1000);
 updateCountdown();
 document.getElementById("access-form").style.display = "block";
