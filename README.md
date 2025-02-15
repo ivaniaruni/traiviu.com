@@ -23,3 +23,9 @@ Feel free to reach out if you have suggestions or want to contribute!
 📸 Instagram: [https://www.instagram.com/ivan_iaruni/]  
 💻 LinkedIn: [https://www.linkedin.com/in/ivan-iarunichev-83056b307/]  
 🔗 Linktree: [https://linktr.ee/ivanzd_x](https://linktr.ee/ivanzd_x)  
+
+## 📄 License  
+This project is **public for reference only**.  
+Unauthorized use, distribution, or modification is **strictly prohibited** without the author's permission.  
+
+If you want to use any part of this project, please contact me. 
