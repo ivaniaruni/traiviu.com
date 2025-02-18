@@ -176,7 +176,7 @@ notifyForm.addEventListener("submit", async (e) => {
     }
 
     try {
-        const response = await fetch("http://localhost/my_project/save-email.php", {
+        const response = await fetch("https://traiviu.com/save-email.php", { 
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ email })
