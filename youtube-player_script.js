@@ -49,3 +49,7 @@ function onPlayerStateChange(event) {
         }, 1000);
     }
 }
+
+document.getElementById("video-container").oncanplaythrough = function() {
+    document.getElementById("player").style.display = "block";
+};
