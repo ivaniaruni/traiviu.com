@@ -24,6 +24,7 @@ Feel free to reach out if you have suggestions or want to contribute!
 💻 LinkedIn: [https://www.linkedin.com/in/ivan-iarunichev-83056b307/]  
 🔗 Linktree: [https://linktr.ee/ivanzd_x](https://linktr.ee/ivanzd_x]  
 📝 Dribbble: [https://dribbble.com/IvanIaru]
+🔥 Behance: [https://www.behance.net/ivan_iaruni]
 
 ## 📄 License  
 This project is **public for reference only**.  
