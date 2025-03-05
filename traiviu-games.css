@@ -126,7 +126,7 @@ body{
     object-fit: cover;
     filter: brightness(0.5);
     pointer-events: none;
-    clip-path: inset(10% 0% 10% 0%);
+    clip-path: inset(10% 0% 20% 0%);
 }
 
 /* Navegation */
