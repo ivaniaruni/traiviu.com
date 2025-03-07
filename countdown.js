@@ -1,4 +1,4 @@
-const launchDate = new Date("March 1, 2025 00:00:00").getTime();
+const launchDate = new Date("April 1, 2025 00:00:00").getTime();
 const correctCode = "TraiviuCode7789";
 
 function updateCountdown() {
