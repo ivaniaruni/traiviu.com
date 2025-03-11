@@ -34,7 +34,7 @@ const seriesInfo = {
         whereToWatch: "Xbox Series X|S, PlayStation 5, PC (Steam)",
         genre: "Shooter, Action",
         releaseDate: "May 15, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
     "Dune Awakening":{
         title: "Dune: Awakening",
@@ -56,7 +56,7 @@ const seriesInfo = {
         whereToWatch: "Nintendo Switch",
         genre: "Life Simulation, RPG",
         releaseDate: "May 21, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
     "Metal Eden":{
         title: "Metal Eden",
@@ -101,7 +101,7 @@ const seriesInfo = {
         whereToWatch: "PlayStation 5",
         genre: "Action-Adventure, Survival",
         releaseDate: "April 25, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
     "Elden Ring Nightreign":{
         title: "Elden Ring: Nightreign",
@@ -112,7 +112,7 @@ const seriesInfo = {
         whereToWatch: "PS4, PS5, Xbox One, Xbox Series X|S, PC (Steam)",
         genre: "Action, RPG, Co-op, Survival",
         releaseDate: "May 29, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
     "Fatal Fury City of the Wolves":{
         title: "Fatal Fury: City of the Wolves",
@@ -123,7 +123,7 @@ const seriesInfo = {
         whereToWatch: "PlayStation 5, PlayStation 4, Xbox Series X|S, PC (Steam), Epic Games Store",
         genre: "Fighting",
         releaseDate: "April 24, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
     "Five Nights at Freddys Secret of the Mimic":{
         title: "Five Nights at Freddy's: Secret of the Mimic",
@@ -134,86 +134,86 @@ const seriesInfo = {
         whereToWatch: "PlayStation 5, PC (Steam, Epic Games Store)",
         genre: "Survival Horror",
         releaseDate: "June 13, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
-    "Lost Records: Bloom & Rage – Tape 2":{
-        title: "Gangs of London - Season 3",
+    "Lost Records Bloom and Rage Tape 2":{
+        title: "Lost Records: Bloom & Rage – Tape 2",
         description: "In this adventure game, players control Swann, a 16-year-old aspiring filmmaker in 1995, as she bonds with new friends and forms a punk band, Bloom & Rage, capturing their journey with her camcorder.",
         directors: "Don't Nod Montréal",
         producers: "Don't Nod",
-        videoId: "4YEYWrVU0jo",
+        videoId: "fnKGMAsh_xMs",
         whereToWatch: "PlayStation 5, Windows, Xbox Series X/S",
         genre: "Adventure",
         releaseDate: "April 15, 2025",
-        rating: "TBD"
+        rating: "TBA"
     },
 
     // Second Part Trending
     "Lost Soul Aside":{
-        title: "1923: Season 2",
-        description: "A captivating drama series that continues the saga of the Dutton family as they face challenges in the early 20th century, including Westward expansion, Prohibition, and the Great Depression.",
-        directors: "Ben Richardson, Guy Ferland, Stephen Kay, Christina Voros",
-        producers: "Taylor Sheridan, David C. Glasser",
-        videoId: "-xFgRf_0s_M",
-        whereToWatch: "SkyShowtime",
-        genre: "Western, Drama",
-        releaseDate: "March 10, 2025",
-        rating: "8.7/10"
+        title: "Lost Soul Aside",
+        description: "An action-adventure RPG where players control Kaser on a quest to rescue his sister Louisa from interdimensional beings known as Voidrax, accompanied by a shape-shifting dragon named Arena.",
+        directors: "Ultizero Games",
+        producers: "Sony Interactive Entertainment",
+        videoId: "0EKvNt4bijE",
+        whereToWatch: "PlayStation 5, Windows",
+        genre: "Action-Adventure, RPG",
+        releaseDate: "May 30, 2025",
+        rating: "TBA"
     },
     "Lushfoil Photography Sim":{
-        title: "Power Book III: Raising Kanan - Season 4",
-        description: "A gripping prequel set in the 1990s, chronicling the early life of Kanan Stark as he delves into the drug trade, exploring themes of family, loyalty, and ambition.",
-        directors: "Rob Hardy, Eif Rivera, Hernán Otaño",
-        producers: "Ballpoint Productions, End of Episode, Inc., G-Unit Film & Television Inc., Atmosphere Television, CBS Studios, Lionsgate Television",
-        videoId: "RDNGEzriBI8",
-        whereToWatch: "Starz",
-        genre: "Crime Drama, Thriller",
-        releaseDate: "March 7, 2025",
-        rating: "7.7/10"
+        title: "Lushfoil Photography Sim",
+        description: "Explore breathtaking real-world locations and capture stunning images with a realistic virtual camera.",
+        directors: "Matt Newell",
+        producers: "Annapurna Interactive",
+        videoId: "pi6a7UjLy10",
+        whereToWatch: "PlayStation 5, Xbox Series X|S, PC (Steam)",
+        genre: "Simulation, Photography, Exploration",
+        releaseDate: "April 15, 2025",
+        rating: "TBA"
     },
     "Rune Factory Guardians of Azuma":{
-        title: "The Residence",
-        description: "A captivating mystery series set within the walls of the White House, where a detective investigates a scandalous murder, uncovering secrets that could shake the nation.",
-        directors: "Liza Johnson, Dee Rees",
-        producers: "Shondaland, Netflix",
-        videoId: "NpDkoSVn5Ag",
-        whereToWatch: "Netflix",
-        genre: "Mystery, Drama",
-        releaseDate: "March 20, 2025",
+        title: "Rune Factory: Guardians of Azuma",
+        description: "Embark on an action-RPG adventure to restore Azuma, battling foes and cultivating the land.",
+        directors: "Marvelous Inc.",
+        producers: "Marvelous Inc.",
+        videoId: "4RwBoqYXiU4",
+        whereToWatch: "Nintendo Switch, PC (Steam)",
+        genre: "Action-RPG, Simulation",
+        releaseDate: "May 30, 2025",
         rating: "TBA"
     },
     "South of Midnight": {
-        title: "The Righteous Gemstones - Season 4",
-        description: "A dark comedy following a world-famous televangelist family with a long tradition of deviance, greed, and charitable work, as they navigate internal conflicts and external threats.",
-        directors: "Danny McBride, Jody Hill, David Gordon Green",
-        producers: "Rough House Pictures, HBO",
-        videoId: "PnRa29-wjaM",
-        whereToWatch: "HBO Max",
-        genre: "Comedy, Drama",
-        releaseDate: "March 9, 2025",
-        rating: "8.1/10"
+        title: "South of Midnight",
+        description: "Embark on a Southern Gothic adventure as Hazel, a Weaver with magical abilities, exploring a folklore-rich Deep South to mend the fabric of reality.",
+        directors: "Compulsion Games",
+        producers: "Xbox Game Studios",
+        videoId: "klgw-To1rqc",
+        whereToWatch: "Xbox Series X|S, Windows",
+        genre: "Action-Adventure",
+        releaseDate: "April 8, 2025",
+        rating: "TBA"
     },
     "The Last of Us Part II Remastered": {
-        title: "The Studio",
-        description: "An inspiring drama set in the high-pressure world of a creative agency, focusing on the stories of its talented yet conflicted employees.",
-        directors: "Various Talents",
-        producers: "Apple TV+, Creative Vision Studios",
-        videoId: "W7vP89A5VWo",
-        whereToWatch: "Apple TV+",
-        genre: "Drama, Workplace",
-        releaseDate: "March 26, 2025",
+        title: "The Last of Us Part II Remastered",
+        description: "Experience the intense journey of Ellie and Abby in a post-apocalyptic world, enhanced with improved visuals, faster load times, and new gameplay features.",
+        directors: "Naughty Dog",
+        producers: "Sony Interactive Entertainment",
+        videoId: "Ye3st9z6jQY",
+        whereToWatch: "PlayStation 5 (released January 19, 2024); Windows (scheduled for April 3, 2025)",
+        genre: "Action-Adventure, Survival",
+        releaseDate: "April 3, 2025",
         rating: "TBA"
     },
     "Tony Hawks Pro Skater 3+4": {
         title: "The Wheel of Time - Season 3",
-        description: "An epic fantasy series that follows Moiraine, a member of a powerful all-female organization, as she embarks on a dangerous journey with five young villagers, believing one of them is the reincarnation of the Dragon, destined to save or destroy the world.",
-        directors: "Uta Briesewitz, Salli Richardson-Whitfield, Wayne Yip",
-        producers: "Amazon Studios, Sony Pictures Television, Radar Pictures, Little Island Productions, Iwot Pictures",
-        videoId: "erxeLAg85fg",
-        whereToWatch: "Amazon Prime Video",
-        genre: "Fantasy, Adventure, Drama",
-        releaseDate: "March 13, 2025",
-        rating: "7.1/10"
+        description: "Experience remastered editions of the classic skateboarding games, featuring enhanced visuals, new skaters, and iconic levels.",
+        directors: "Iron Galaxy",
+        producers: "Activision",
+        videoId: "57dD5_Gbjxw",
+        whereToWatch: "Nintendo Switch, PlayStation 4, PlayStation 5, Windows, Xbox One, Xbox Series X/S",
+        genre: "Sports",
+        releaseDate: "July 11, 2025",
+        rating: "TBA"
     },
 
     // Missed Series
