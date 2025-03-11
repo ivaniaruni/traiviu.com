@@ -6,7 +6,7 @@ const modalDirectors = document.getElementById("modal-directors");
 const modalProducers = document.getElementById("modal-producers");
 const modalVideo = document.getElementById("modal-video");
 const closeBtn = document.querySelector(".close-btn");
-const modalWhereToWatch = document.getElementById("modal-where-to-watch");
+const modalWhereToWatch = document.getElementById("modal-where-to-play");
 const modalGenre = document.getElementById("modal-genre");
 const modalReleaseDate = document.getElementById("modal-release-date");
 const modalRating = document.getElementById("modal-rating");
@@ -284,7 +284,7 @@ function openModal(seriesKey) {
     modalVideo.src = `https://www.youtube.com/embed/${series.videoId}?autoplay=1&enablejsapi=1&controls=1`;
     modal.style.display = "flex";
     modal.classList.add("animated");
-    modalWhereToWatch.innerHTML = `<strong>View in:</strong> ${series.whereToWatch}`;
+    modalWhereToWatch.innerHTML = `<strong>Play in:</strong> ${series.whereToWatch}`;
     modalGenre.innerHTML = `<strong>Gender:</strong> ${series.genre}`;
     modalReleaseDate.innerHTML = `<strong>Release Date:</strong> ${series.releaseDate}`;
     modalRating.innerHTML = `<strong>IMDb:</strong> ${series.rating}`;
