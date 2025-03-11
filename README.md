@@ -7,6 +7,12 @@ Traiviu is a platform dedicated to showcasing the best trailers of the month for
 - **HTML, CSS, JavaScript** → For structure, styling, and interactivity.
 - **Database** → To store user email addresses.
 
+## 📢 Huge Updates Coming to Traiviu this April!
+**🔥 What’s new this month?**
+- **New Games Section** → Discover the best video game trailers in a fully revamped section.
+- **Faster loading times** → No more long waits! Optimized image loading for a smoother experience.
+- **Mobile-friendly improvements** → Adjusted fonts for better readability on small screens.
+
 ## 🌟 Main Sections
 
 1. **Movies** 🎥  
