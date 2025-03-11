@@ -6,7 +6,7 @@ const modalDirectors = document.getElementById("modal-directors");
 const modalProducers = document.getElementById("modal-producers");
 const modalVideo = document.getElementById("modal-video");
 const closeBtn = document.querySelector(".close-btn");
-const modalWhereToWatch = document.getElementById("modal-where-to-play");
+const modalWhereToWatch = document.getElementById("modal-where-to-watch");
 const modalGenre = document.getElementById("modal-genre");
 const modalReleaseDate = document.getElementById("modal-release-date");
 const modalRating = document.getElementById("modal-rating");
@@ -218,59 +218,59 @@ const seriesInfo = {
 
     // Missed Series
     "Directive 8020 A Dark Pictures Game":{
-        title: "Survival of the Thickest Season 2",
-        description: "A heartwarming comedy-drama following Mavis Beaumont, a plus-size stylist navigating life's challenges and embracing self-love after a transformative breakup.",
-        directors: "Kim Nguyen, Tasha Smith, Thembi Banks, Amy Aniobi",
-        producers: "Buteaupia, SanWitz Productions, A24",
-        videoId: "5gI_JvtgSzY",
-        whereToWatch: "Netflix",
-        genre: "Comedy, Drama",
-        releaseDate: "March 27, 2025",
-        rating: "N/A"
+        title: "Directive 8020 A Dark Pictures Game",
+        description: "A sci-fi horror game where the crew of the Cassiopeia must survive an alien organism that can mimic humans after crash-landing on Tau Ceti f.",
+        directors: "Supermassive Games",
+        producers: "Supermassive Games",
+        videoId: "4a_VXgNSfME",
+        whereToWatch: "PlayStation 5, Windows, Xbox Series X/S",
+        genre: "Interactive Drama, Survival Horror",
+        releaseDate: "October 2, 2025",
+        rating: "TBA"
     },
     "Hell Is Us":{
-        title: "Dark Winds: Season 3",
-        description: "A gripping psychological thriller set in the 1970s Southwest, following two Navajo police officers as they confront their spiritual beliefs while investigating mysterious crimes.",
-        directors: "Various Talents",
-        producers: "Graham Roland, George R.R. Martin, Robert Redford",
-        videoId: "D4gNOfTyeOA",
-        whereToWatch: "AMC, AMC+",
-        genre: "Crime, Thriller, Drama",
-        releaseDate: "March 9, 2025",
-        rating: "7.6/10"
+        title: "Hell Is Us",
+        description: "Embark on a journey through a war-torn land overrun by supernatural creatures, where the past and present collide.",
+        directors: "Rogue Factor",
+        producers: "Nacon",
+        videoId: "SSUUU5HGtws",
+        whereToWatch: "PlayStation 5, Xbox Series X/S, Windows",
+        genre: "Action-Adventure",
+        releaseDate: "September 4, 2025",
+        rating: "TBA"
     },
     "Metal Gear Solid Δ Snake Eater":{
-        title: "Happy Face",
-        description: "n intense true crime drama inspired by the real-life story of Melissa G. Moore, who, at 15, discovered her father was the notorious, Happy Face Killer. The series delves into her journey of grappling with this revelation and its aftermath.",
-        directors: "Michael Showalter",
-        producers: "CBS Studios, iHeartPodcasts, King Size Productions, Semi-Formal Productions",
-        videoId: "NMT5cTdNAiY",
-        whereToWatch: "Paramount+",
-        genre: "True Crime, Drama",
-        releaseDate: "March 20, 2025",
-        rating: "N/A"
+        title: "Metal Gear Solid Δ Snake Eater",
+        description: "A remake of the 2004 classic, Metal Gear Solid 3: Snake Eater, following FOX operative Naked Snake as he infiltrates Soviet territory to rescue a rocket scientist and dismantle a nuclear threat during the Cold War.",
+        directors: "Konami",
+        producers: "Konami",
+        videoId: "iNX8QCeymFM",
+        whereToWatch: "PlayStation 5, Windows PC, Xbox Series X/S",
+        genre: "Action-Adventure, Stealth",
+        releaseDate: "August 28, 2025",
+        rating: "TBA"
     },
     "Shinobi Art of Vengeance":{
-        title: "Ludwig",
-        description: "A clever detective comedy that follows John 'Ludwig' Taylor, a reclusive puzzle setter who assumes his missing twin brother's identity, leading to unexpected adventures in crime-solving.",
-        directors: "Robert McKillop, Jill Robertson",
-        producers: "Big Talk Productions, That Mitchell and Webb Company",
-        videoId: "UMzOCPqbMbg",
-        whereToWatch: "BritBox, BBC",
-        genre: "Comedy, Drama, Mystery",
-        releaseDate: "March 20, 2025",
-        rating: "N/A"
+        title: "Shinobi Art of Vengeance",
+        description: "A 2D action-platformer featuring hand-drawn animation, where players control Joe Musashi on a quest for revenge against the Zeed crime syndicate.",
+        directors: "LizardCube",
+        producers: "SEGA",
+        videoId: "duSFn7ptRIw",
+        whereToWatch: "PlayStation 5, Xbox Series X/S, Nintendo Switch, Windows",
+        genre: "Action-Platformer",
+        releaseDate: "August 29, 2025",
+        rating: "TBA"
     },
     "Tales of the Shire A Lord of the Rings Game":{
-        title: "The Leopard",
-        description: "A captivating historical drama based on the classic novel Il Gattopardo, exploring power, tradition, and change in 19th-century Italy.",
-        directors: "Tom Shankland, Giuseppe Capotondi, Laura Luchetti",
-        producers: "Indiana Production, Moonage Pictures",
-        videoId: "k0DS9ERfLjk",
-        whereToWatch: "Netflix",
-        genre: "Drama, Historical",
-        releaseDate: "March 5, 2025",
-        rating: "N/A"
+        title: "Tales of the Shire A Lord of the Rings Game",
+        description: "A cozy life-simulation game where players embody hobbits in Bywater, engaging in activities like cooking, farming, and home decorating.",
+        directors: "Wētā Workshop",
+        producers: "Private Division",
+        videoId: "NAQQVGwzrj0",
+        whereToWatch: "PlayStation 5, Xbox Series X/S, Nintendo Switch, Windows",
+        genre: "Life Simulation",
+        releaseDate: "March 25, 2025",
+        rating: "TBA"
     } 
     // Add more series/movies here
 };
