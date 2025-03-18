@@ -14,7 +14,7 @@ const modalRating = document.getElementById("modal-rating");
 // Series information (expand this list as needed)
 const seriesInfo = {
     // Upcoming Series
-    "A Minecraft Movie":{
+    "Fear Street Prom Queen":{
         title: "A Minecraft Movie",
         description: "An adventurous journey where a young girl and her unlikely companions set out to save the Overworld from the malevolent Ender Dragon.",
         directors: "Jared Hess",
@@ -25,7 +25,7 @@ const seriesInfo = {
         releaseDate: "April 4, 2025",
         rating: "N/A"
     },
-    "Sinners":{
+    "Final Destination Bloodlines":{
         title: "Sinners",
         description: "A gripping drama exploring the intertwined lives of individuals confronting their past sins in a morally complex world.",
         directors: "Ryan Coogler",
@@ -36,7 +36,7 @@ const seriesInfo = {
         releaseDate: "April 18, 2025",
         rating: "N/A"
     },
-    "The Accountant 2":{
+    "Karate Kid Legends":{
         title: "The Accountant 2",
         description: "Christian Wolff returns, delving deeper into the world of forensic accounting and high-stakes danger.",
         directors: "Gavin O'Connor",
@@ -47,7 +47,7 @@ const seriesInfo = {
         releaseDate: "April 25, 2025",
         rating: "N/A"
     },
-    "The Amateur":{
+    "Lilo & Stitch":{
         title: "The Amateur",
         description: "A CIA cryptographer embarks on a personal mission to avenge his wife's death after a terrorist attack.",
         directors: "James Hawes",
@@ -58,7 +58,7 @@ const seriesInfo = {
         releaseDate: "April 11, 2025",
         rating: "N/A"
     },
-    "Thunderbolts":{
+    "Mission Impossible The Final Reckoning":{
         title: "Thunderbolts",
         description: "A team of antiheroes is assembled to undertake covert missions, blurring the lines between right and wrong in the Marvel Universe.",
         directors: "Jake Schreier",
@@ -69,7 +69,7 @@ const seriesInfo = {
         releaseDate: "April 30, 2025",
         rating: "N/A"
     },
-    "Until Dawn":{
+    "Thunderbolts":{
         title: "Until Dawn",
         description: "A group of friends faces unimaginable horrors during a getaway, where their choices determine who survives until dawn.",
         directors: "David F. Sandberg",
@@ -81,7 +81,7 @@ const seriesInfo = {
         rating: "N/A"
     },
     // Trending Series
-    "A Working Man":{
+    "A Minecraft Movie":{
         title: "A Working Man",
         description: "A poignant drama that delves into the life of an aging factory worker facing the closure of his long-time workplace, exploring themes of identity, purpose, and resilience.",
         directors: "Robert Jury",
@@ -92,7 +92,7 @@ const seriesInfo = {
         releaseDate: "March 28, 2025",
         rating: "N/A"
     },
-    "Ash":{
+    "Freeaky Tales":{
         title: "Ash",
         description: "A gripping thriller that follows a woman who becomes entangled in a web of deceit and danger after witnessing a crime, challenging her perceptions of reality.",
         directors: "Flying Lotus",
@@ -103,7 +103,7 @@ const seriesInfo = {
         releaseDate: "March 21, 2025",
         rating: "N/A"
     },
-    "Black Bag":{
+    "Havoc":{
         title: "Black Bag",
         description: "An intense spy thriller where a government operative uncovers a conspiracy that threatens national security, forcing him into a deadly game of cat and mouse.",
         directors: "Steven Soderbergh",
@@ -114,7 +114,7 @@ const seriesInfo = {
         releaseDate: "March 14, 2025",
         rating: "N/A"
     },
-    "Bloat":{
+    "Hello of a Summer":{
         title: "Bloat",
         description: "A horror film that explores the terrifying consequences of unchecked scientific experimentation, as a small town grapples with a mysterious and deadly phenomenon.",
         directors: "Ben McKenzie",
@@ -125,7 +125,7 @@ const seriesInfo = {
         releaseDate: "March 8, 2025",
         rating: "N/A"
     },
-    "In the Lost Lands":{
+    "On Swift Horses":{
         title: "In the Lost Lands",
         description: "An epic fantasy adventure based on George R.R. Martin's short stories, following a sorceress on a quest to fulfill a mysterious request that challenges the boundaries of magic and desire.",
         directors: "Paul W.S. Anderson",
@@ -136,7 +136,7 @@ const seriesInfo = {
         releaseDate: "March 22, 2025",
         rating: "N/A"
     },
-    "Mickey 17":{
+    "Sinners":{
         title: "Mickey 17",
         description: "A sci-fi thriller about an expendable clone on a space colonization mission, who refuses to die after being replaced.",
         directors: "Bong Joon-ho",
@@ -149,7 +149,7 @@ const seriesInfo = {
     },
 
     // Second Part Trending
-    "Novocaine":{
+    "That They May Face the Rising Sun":{
         title: "Novocaine",
         description: "A dark comedy thriller that follows a dentist whose life spirals out of control after he becomes entangled in a web of deceit and murder.",
         directors: "David Atkins",
@@ -160,7 +160,7 @@ const seriesInfo = {
         releaseDate: "March 14, 2025",
         rating: "N/A"
     },
-    "Opus":{
+    "The Accountant 2":{
         title: "Opus",
         description: "A compelling drama centered around a prodigious musician's journey through fame, personal struggles, and the quest for artistic perfection.",
         directors: "Ayo Edebiri",
@@ -171,7 +171,7 @@ const seriesInfo = {
         releaseDate: "March 14, 2025",
         rating: "N/A"
     },
-    "Snow White":{
+    "The Amateur":{
         title: "Snow White",
         description: "A live-action adaptation of the classic fairy tale, bringing a fresh perspective to the story of a princess, seven dwarfs, and an evil queen.",
         directors: "Marc Webb",
@@ -182,7 +182,7 @@ const seriesInfo = {
         releaseDate: "March 21, 2025",
         rating: "N/A"
     },
-    "The Alto Knights": {
+    "The Legend of Ochi": {
         title: "The Alto Knights",
         description: "A crime drama that delves into the lives of a group of jazz musicians who become entangled in the criminal underworld of 1950s New York.",
         directors: "Damien Chazelle",
@@ -193,7 +193,7 @@ const seriesInfo = {
         releaseDate: "March 21, 2025",
         rating: "N/A"
     },
-    "The Day the Earth Blew Up A Looney Tunes Movie": {
+    "Until Dawn": {
         title: "The Day the Earth Blew Up A Looney Tunes Movie",
         description: "An animated adventure where Daffy Duck and Porky Pig team up to save the Earth from an impending alien invasion.",
         directors: "Pete Browngardt",
@@ -204,7 +204,7 @@ const seriesInfo = {
         releaseDate: "March 14, 2025",
         rating: "N/A"
     },
-    "The Electric Stat": {
+    "Warfare": {
         title: "The Electric Stat",
         description: "A sci-fi adventure following a young woman traversing a retro-futuristic America with a mysterious robot to find her missing brother.",
         directors: "Anthony Russo, Joe Russo",
@@ -217,7 +217,7 @@ const seriesInfo = {
     },
 
     // Missed Series
-    "Delicious":{
+    "Screamboat":{
         title: "Delicious",
         description: "A heartfelt drama that follows a young chef navigating the cutthroat world of haute cuisine, where passion, rivalry, and ambition collide in the pursuit of culinary greatness.",
         directors: "TBA",
@@ -228,7 +228,7 @@ const seriesInfo = {
         releaseDate: "March 7, 2025",
         rating: "N/A"
     },
-    "Larissa The Other Side of Anitta":{
+    "Starbright":{
         title: "Larissa The Other Side of Anitta",
         description: "A revealing documentary offering an intimate look at the life of global pop sensation Anitta, exploring her rise to fame, struggles, and the woman behind the stage persona.",
         directors: "TBA",
@@ -239,7 +239,7 @@ const seriesInfo = {
         releaseDate: "March 6, 2025",
         rating: "N/A"
     },
-    "Locked":{
+    "The Chosen The Last Supper Part 3":{
         title: "Locked",
         description: "A tense thriller about a man trapped in a high-stakes hostage situation, where every second is a battle for survival and the line between captor and victim blurs.",
         directors: "David Fincher",
@@ -250,7 +250,7 @@ const seriesInfo = {
         releaseDate: "March 21, 2025",
         rating: "N/A"
     },
-    "Plankton The Movie":{
+    "The Ritual":{
         title: "Plankton The Movie",
         description: "The infamous villain from SpongeBob SquarePants takes center stage in his own hilarious, action-packed adventure as he embarks on a quest to steal the Krabby Patty formula once and for all.",
         directors: "TBA",
@@ -261,7 +261,7 @@ const seriesInfo = {
         releaseDate: "March 28, 2025",
         rating: "N/A"
     },
-    "The Woman In The Yard":{
+    "The Shrouds":{
         title: "The Woman In The Yard",
         description: "A spine-chilling horror story about a woman haunted by an ominous presence lurking just beyond her yard, blurring the lines between paranoia and supernatural terror.",
         directors: "Jaume Collet-Serra",
