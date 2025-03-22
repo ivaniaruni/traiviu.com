@@ -272,7 +272,7 @@ const seriesInfo = {
         releaseDate: "March 28, 2025",
         rating: "N/A"
     } 
-    // Add more series/movies here
+    // Add more series & movies here
 };
 
 function openModal(seriesKey) {
