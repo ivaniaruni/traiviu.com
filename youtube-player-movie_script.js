@@ -10,13 +10,13 @@ var player;
 // Initialize YouTube Player
 function onYouTubeIframeAPIReady(){
     player = new YT.Player('player',{
-        videoId: 'TbiPcMCz0Ek',
+        videoId: '8B1EtVPBSMw',
         playerVars:{
             autoplay: 1,
             mute: 1,
             controls: 0,
             loop: 1,
-            playlist: 'TbiPcMCz0Ek',
+            playlist: '8B1EtVPBSMw',
             modestbranding: 1,
             rel: 0,
             showinfo: 0,
