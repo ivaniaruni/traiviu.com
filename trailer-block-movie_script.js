@@ -154,7 +154,7 @@ const seriesInfo = {
         description: "In 1980s rural Ireland, Joe and Kate Ruttledge return from London to immerse themselves in the rhythms of lakeside village life, forging new friendships and confronting personal challenges.",
         directors: "Pat Collins",
         producers: "Tina O'Reilly, Brendan J. Byrne",
-        videoId: "sHsLFFHKUr4",
+        videoId: "ZrYv9VkRLEo",
         whereToWatch: "Theaters",
         genre: "Drama",
         releaseDate: "April 11, 2025",
@@ -218,59 +218,59 @@ const seriesInfo = {
 
     // Missed Series
     "Screamboat":{
-        title: "Delicious",
-        description: "A heartfelt drama that follows a young chef navigating the cutthroat world of haute cuisine, where passion, rivalry, and ambition collide in the pursuit of culinary greatness.",
-        directors: "TBA",
-        producers: "Sony Pictures",
-        videoId: "wvYmnIZFtSE",
+        title: "Screamboat",
+        description: "A late-night ferry ride in New York City turns into a desperate fight for survival when a mischievous mouse named Steamboat Willie becomes a monstrous reality, terrorizing unsuspecting passengers.",
+        directors: "Steven LaMorte",
+        producers: "Steven LaMorte, Amy Schumacher, Martine Melloul, Steven Della Salle, Michael Leavy",
+        videoId: "cgeRY0nx89s",
         whereToWatch: "Theaters",
-        genre: "Comedy, Drama",
-        releaseDate: "March 7, 2025",
-        rating: "N/A"
+        genre: "Horror, Comedy, Thriller",
+        releaseDate: "April 2, 2025",
+        rating: "7/10"
     },
     "Starbright":{
-        title: "Larissa The Other Side of Anitta",
-        description: "A revealing documentary offering an intimate look at the life of global pop sensation Anitta, exploring her rise to fame, struggles, and the woman behind the stage persona.",
-        directors: "TBA",
-        producers: "Netflix",
-        videoId: "dsQXb1ybhY4",
+        title: "Starbright",
+        description: "A young orphan escapes the harsh realities of her life by fantasizing about and ultimately entering a fairy tale world, embarking on an adventure that blends imagination with reality.",
+        directors: "Francesco Lucente",
+        producers: "Francesco Lucente, Jorg Neumann, Anthony Romano, Michel Shane",
+        videoId: "No trailer available.",
         whereToWatch: "Netflix",
-        genre: "Documentary, Music",
-        releaseDate: "March 6, 2025",
-        rating: "N/A"
+        genre: "Adventure, Fantasy",
+        releaseDate: "April 18, 2025",
+        rating: "Not yet rated"
     },
     "The Chosen The Last Supper Part 3":{
-        title: "Locked",
-        description: "A tense thriller about a man trapped in a high-stakes hostage situation, where every second is a battle for survival and the line between captor and victim blurs.",
-        directors: "David Fincher",
-        producers: "Warner Bros. Pictures",
-        videoId: "VAaqF55xUHM",
+        title: "The Chosen The Last Supper Part 3",
+        description: "As Jesus' followers gather for the Passover meal, his adversaries prepare for a manhunt. On the same night Jesus establishes his new covenant, Judas finalizes his betrayal.",
+        directors: "Dallas Jenkins",
+        producers: "Dallas Jenkins",
+        videoId: "5CVj41dtkIA",
         whereToWatch: "Theaters",
-        genre: "Thriller, Mystery",
-        releaseDate: "March 21, 2025",
-        rating: "N/A"
+        genre: "Drama, Faith & Spirituality, History",
+        releaseDate: "April 11, 2025",
+        rating: "Not Rated"
     },
     "The Ritual":{
-        title: "Plankton The Movie",
-        description: "The infamous villain from SpongeBob SquarePants takes center stage in his own hilarious, action-packed adventure as he embarks on a quest to steal the Krabby Patty formula once and for all.",
-        directors: "TBA",
-        producers: "Paramount Animation, Nickelodeon Movies",
-        videoId: "IHRScjhllsQ",
+        title: "The Ritual",
+        description: "Based on true events, two priests—one questioning his faith and the other confronting a troubled past—must collaborate to perform a series of exorcisms to save a possessed young woman.",
+        directors: "David Midell",
+        producers: "Andrew Stevens, Ross Kagan Marks, Mitchell Welch, Enrico Natale",
+        videoId: "No trailer available.",
         whereToWatch: "Theaters",
-        genre: "Comedy, Adventure",
-        releaseDate: "March 28, 2025",
-        rating: "N/A"
+        genre: "Horror",
+        releaseDate: "April 18, 2025",
+        rating: "Not Rated"
     },
     "The Shrouds":{
-        title: "The Woman In The Yard",
-        description: "A spine-chilling horror story about a woman haunted by an ominous presence lurking just beyond her yard, blurring the lines between paranoia and supernatural terror.",
-        directors: "Jaume Collet-Serra",
-        producers: "Blumhouse Productions, Universal Pictures",
-        videoId: "1s-Ko4J3mWs",
+        title: "The Shrouds",
+        description: "Karsh, a prominent businessman grieving the loss of his wife, invents GraveTech, a technology that allows the living to monitor the decomposition of their deceased loved ones within their shrouds. When multiple graves, including his wife's, are desecrated, Karsh embarks on a mission to find those responsible.",
+        directors: "David Cronenberg",
+        producers: "Saïd Ben Saïd, Martin Katz, Anthony Vaccarello",
+        videoId: "vwh1Fob4VKs",
         whereToWatch: "Theaters",
-        genre: "Horror, Thriller",
-        releaseDate: "March 28, 2025",
-        rating: "N/A"
+        genre: "Horror, Science Fiction, Drama",
+        releaseDate: "April 25, 2025",
+        rating: "Not Rated"
     } 
     // Add more series & movies here
 };
