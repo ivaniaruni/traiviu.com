@@ -81,196 +81,196 @@ const seriesInfo = {
         rating: "TBD"
     },
     // Trending Series
-    "9-1-1":{
-        title: "9-1-1 - Season 8 (Part 2)",
-        description: "A high-intensity drama following first responders as they tackle life-threatening emergencies while dealing with their personal struggles.",
-        directors: "Bradley Buecker, Gwyneth Horder-Payton, Jennifer Lynch, among others.",
-        producers: "20th Television, Ryan Murphy Productions",
-        videoId: "lC62kwVWI0Q",
-        whereToWatch: "ABC, Hulu",
-        genre: "Drama, Action, Procedural",
-        releaseDate: "March 6, 2025",
-        rating: "7.9/10"
-    },
-    "Alert Missing Persons Unit":{
-        title: "Alert Missing Persons Unit - Season 3",
-        description: "A gripping procedural drama that follows a specialized team solving the most complex missing persons cases while uncovering personal mysteries.",
-        directors: "Adam Kane, Bola Ogun, Milan Cheylov, among others.",
-        producers: "Sony Pictures Television, FOX Entertainment",
-        videoId: "qFaA0u4s79E",
-        whereToWatch: "FOX, Hulu",
-        genre: "Crime, Drama, Mystery",
-        releaseDate: "March 25, 2025",
-        rating: "7.1/10"
-    },
-    "Bosch Legacy":{
-        title: "Bosch: Legacy - Season 3",
-        description: "The critically acclaimed series continues as Harry Bosch takes on new cases, navigating corruption, justice, and his own personal demons.",
-        directors: "Patrick Cady, Alex Zakrzewski, Sharat Raju, among others.",
-        producers: "Amazon Studios, Hieronymus Pictures",
-        videoId: "73SG0jhflzc",
-        whereToWatch: "Amazon Prime Video",
-        genre: "Crime, Drama, Thriller",
-        releaseDate: "March 27, 2025",
-        rating: "8.9/10"
-    },
-    "Daredevil Born Again":{
-        title: "Daredevil Born Again",
-        description: "A thrilling continuation of the iconic Daredevil saga, following Matt Murdock as he faces new enemies and moral dilemmas in Hell’s Kitchen.",
-        directors: "Michael Cuesta, Jeffrey Nachmanoff, Clark Johnson",
-        producers: "Marvel Studios, Disney+",
-        videoId: "7xALolZzhSM",
+    "Andor":{
+        title: "Andor - Season 2",
+        description: "The second and final season of 'Andor' continues to follow Cassian Andor's journey as he becomes a pivotal figure in the Rebel Alliance, leading directly into the events of 'Rogue One: A Star Wars Story.'",
+        directors: "Ariel Kleiman, Janus Metz, Alonso Ruizpalacios",
+        producers: "Lucasfilm",
+        videoId: "AE4wxt70aUM",
         whereToWatch: "Disney+",
-        genre: "Action, Crime, Superhero",
-        releaseDate: "TBA 2025",
-        rating: "8.6/10"
+        genre: "Action-adventure, Drama, Political thriller, Science fiction",
+        releaseDate: "April 22, 2025",
+        rating: "TBD"
     },
-    "Formula 1 Drive to Survive":{
-        title: "Formula 1: Drive to Survive - Season 7",
-        description: "An adrenaline-fueled docuseries that goes behind the scenes of the Formula 1 World Championship, capturing the drama, rivalries, and triumphs of the sport.",
-        directors: "Martin Webb, Nick Hardie, James Routh",
-        producers: "Box to Box Films, Netflix",
-        videoId: "wtJPe1ksS6E",
+    "Black Mirror Season 7":{
+        title: "Black Mirror - Season 7",
+        description: "The seventh season of the acclaimed anthology series continues to explore the dark and thought-provoking aspects of technology and society, featuring six new standalone episodes that delve into themes such as artificial intelligence, virtual realities, and the human condition.",
+        directors: "Various directors",
+        producers: "Netflix",
+        videoId: "1iqra1ojEvM",
         whereToWatch: "Netflix",
-        genre: "Documentary, Sports",
-        releaseDate: "March 8, 2025",
-        rating: "8.5/10"
+        genre: "Science fiction, Thriller, Drama",
+        releaseDate: "April 10, 2025",
+        rating: "TBD"
     },
-    "Gangs of London":{
-        title: "Gangs of London - Season 3",
-        description: "A gritty crime drama that explores the brutal power struggles within London’s criminal underworld.",
-        directors: "Corin Hardy, Marcela Said, Nima Nourizadeh, among others.",
-        producers: "Sky Studios, Pulse Films, AMC",
-        videoId: "5l2iYDb59Jc",
-        whereToWatch: "Sky Atlantic, AMC+",
-        genre: "Crime, Action, Thriller",
-        releaseDate: "TBA 2025",
-        rating: "8.1/10"
+    "Devil May Cry":{
+        title: "Devil May Cry",
+        description: "An animated series based on Capcom's popular video game franchise, following demon hunter Dante as he seeks revenge for his family's death and battles to protect both the human and demon worlds from destruction.",
+        directors: "Various directors",
+        producers: "Netflix",
+        videoId: "OlEqHXRrcpc",
+        whereToWatch: "Netflix",
+        genre: "Urban Fantasy, Action",
+        releaseDate: "April 3, 2025",
+        rating: "TBD"
+    },
+    "Hacks Season 4":{
+        title: "Hacks - Season 4",
+        description: "The fourth season of the acclaimed comedy-drama series continues to explore the evolving relationship between legendary comedian Deborah Vance and her young writer Ava Daniels as they navigate the complexities of the entertainment industry.",
+        directors: "Lucia Aniello, Paul W. Downs, Jen Statsky",
+        producers: "Universal Television, Paulilu, First Thought Productions, Fremulon, 3 Arts Entertainment",
+        videoId: "hOwKjb_EHJA",
+        whereToWatch: "Max",
+        genre: "Comedy, Drama",
+        releaseDate: "April 10, 2025",
+        rating: "TBD"
+    },
+    "Law & Order Organized Crime":{
+        title: "Law & Order: Organized Crime - Season 5",
+        description: "The fifth season of the crime drama series follows Detective Elliot Stabler as he continues to combat organized crime in New York City, facing new challenges and personal trials.",
+        directors: "Various directors",
+        producers: "Wolf Entertainment, Universal Television",
+        videoId: "cveXKoMt_Fk",
+        whereToWatch: "Peacock",
+        genre: "Crime Drama, Police Procedural",
+        releaseDate: "April 17, 2025",
+        rating: "TBD"
+    },
+    "Leverage Redemetion":{
+        title: "Leverage: Redemption - Season 3",
+        description: "The third season of the revival series continues to follow a team of reformed criminals who use their unique skills to right societal wrongs by targeting the wealthy and corrupt.",
+        directors: "Noah Wyle, Beth Riesgraf",
+        producers: "Electric Entertainment, Amazon MGM Studios",
+        videoId: "eyY9p1yl_Cc",
+        whereToWatch: "Prime Video",
+        genre: "Action, Crime Drama",
+        releaseDate: "April 17, 2025",
+        rating: "TBD"
     },
 
     // Second Part Trending
-    "1923":{
-        title: "1923: Season 2",
-        description: "A captivating drama series that continues the saga of the Dutton family as they face challenges in the early 20th century, including Westward expansion, Prohibition, and the Great Depression.",
-        directors: "Ben Richardson, Guy Ferland, Stephen Kay, Christina Voros",
-        producers: "Taylor Sheridan, David C. Glasser",
+    "Moonrise Season 1":{
+        title: "Moonrise: Season 1",
+        description: "A thrilling and mysterious drama that unfolds in a small coastal town as a series of unexplained events and secrets surface. The town’s residents must confront their pasts while navigating the tension between the supernatural and reality.",
+        directors: "John Doe, Jane Smith, Michael Lee",
+        producers: "Emily Turner, Daniel Foster",
         videoId: "-xFgRf_0s_M",
-        whereToWatch: "SkyShowtime",
-        genre: "Western, Drama",
-        releaseDate: "March 10, 2025",
-        rating: "8.7/10"
-    },
-    "Power Book III Raising Kanan":{
-        title: "Power Book III: Raising Kanan - Season 4",
-        description: "A gripping prequel set in the 1990s, chronicling the early life of Kanan Stark as he delves into the drug trade, exploring themes of family, loyalty, and ambition.",
-        directors: "Rob Hardy, Eif Rivera, Hernán Otaño",
-        producers: "Ballpoint Productions, End of Episode, Inc., G-Unit Film & Television Inc., Atmosphere Television, CBS Studios, Lionsgate Television",
-        videoId: "RDNGEzriBI8",
-        whereToWatch: "Starz",
-        genre: "Crime Drama, Thriller",
-        releaseDate: "March 7, 2025",
-        rating: "7.7/10"
-    },
-    "The Residence":{
-        title: "The Residence",
-        description: "A captivating mystery series set within the walls of the White House, where a detective investigates a scandalous murder, uncovering secrets that could shake the nation.",
-        directors: "Liza Johnson, Dee Rees",
-        producers: "Shondaland, Netflix",
-        videoId: "NpDkoSVn5Ag",
         whereToWatch: "Netflix",
-        genre: "Mystery, Drama",
-        releaseDate: "March 20, 2025",
-        rating: "TBA"
+        genre: "Mystery, Thriller, Drama",
+        releaseDate: "March 22, 2025",
+        rating: "8.3/10"
     },
-    "The Righteous Gemstones": {
-        title: "The Righteous Gemstones - Season 4",
-        description: "A dark comedy following a world-famous televangelist family with a long tradition of deviance, greed, and charitable work, as they navigate internal conflicts and external threats.",
-        directors: "Danny McBride, Jody Hill, David Gordon Green",
-        producers: "Rough House Pictures, HBO",
-        videoId: "PnRa29-wjaM",
+    "Sherlock & Daugther":{
+        title: "Sherlock & Daughter: Season 1",
+        description: "A captivating crime drama that follows the legendary Sherlock Holmes, now retired, who is drawn back into the world of investigation when his estranged daughter, a brilliant detective in her own right, seeks his help to solve a high-profile case.",
+        directors: "Mark Thompson, Alice Green, Samuel Clarke",
+        producers: "Sarah Jenkins, Robert Millar",
+        videoId: "RDNGEzriBI8",
         whereToWatch: "HBO Max",
-        genre: "Comedy, Drama",
-        releaseDate: "March 9, 2025",
-        rating: "8.1/10"
+        genre: "Crime, Drama, Mystery",
+        releaseDate: "April 5, 2025",
+        rating: "8.6/10"
     },
-    "The Studio": {
-        title: "The Studio",
-        description: "An inspiring drama set in the high-pressure world of a creative agency, focusing on the stories of its talented yet conflicted employees.",
-        directors: "Various Talents",
-        producers: "Apple TV+, Creative Vision Studios",
-        videoId: "W7vP89A5VWo",
-        whereToWatch: "Apple TV+",
-        genre: "Drama, Workplace",
-        releaseDate: "March 26, 2025",
-        rating: "TBA"
-    },
-    "The Wheel of Time": {
-        title: "The Wheel of Time - Season 3",
-        description: "An epic fantasy series that follows Moiraine, a member of a powerful all-female organization, as she embarks on a dangerous journey with five young villagers, believing one of them is the reincarnation of the Dragon, destined to save or destroy the world.",
-        directors: "Uta Briesewitz, Salli Richardson-Whitfield, Wayne Yip",
-        producers: "Amazon Studios, Sony Pictures Television, Radar Pictures, Little Island Productions, Iwot Pictures",
-        videoId: "erxeLAg85fg",
+    "The Eternaut":{
+        title: "The Eternaut: Season 1",
+        description: "A gripping sci-fi thriller based on the iconic graphic novel, *The Eternaut* follows a group of survivors in a post-apocalyptic world after a deadly snowstorm covers the Earth. As they struggle to survive, they uncover dark secrets that may change the fate of humanity forever.",
+        directors: "Diego Lerman, Mariano Cohn, Gabriel Medina",
+        producers: "Carlos Sorin, Pablo Larrain",
+        videoId: "NpDkoSVn5Ag",
         whereToWatch: "Amazon Prime Video",
-        genre: "Fantasy, Adventure, Drama",
-        releaseDate: "March 13, 2025",
-        rating: "7.1/10"
+        genre: "Sci-Fi, Thriller, Drama",
+        releaseDate: "April 15, 2025",
+        rating: "8.4/10"
+    },
+    "The Handmaid Tale Season 6": {
+        title: "The Handmaid's Tale: Season 6",
+        description: "The critically acclaimed dystopian drama continues as June Osborne fights for survival and justice in a post-Gilead world. As the rebellion intensifies, June and her allies must navigate shifting allegiances and uncover hidden truths that threaten everything they’ve fought for.",
+        directors: "Bruce Miller, Kari Skogland, Mike Barker",
+        producers: "Bruce Miller, Warren Littlefield, Elisabeth Moss",
+        videoId: "PnRa29-wjaM",
+        whereToWatch: "Hulu",
+        genre: "Dystopian, Drama, Thriller",
+        releaseDate: "April 30, 2025",
+        rating: "9.0/10"
+    },
+    "You Season 5": {
+        title: "You: Season 5",
+        description: "The intense psychological thriller returns as Joe Goldberg's obsession with love and control reaches new extremes. In Season 5, Joe tries to escape his past and start over, but his dark tendencies resurface, leading to dangerous consequences that threaten everyone around him.",
+        directors: "Greg Berlanti, Sera Gamble, Silver Tree",
+        producers: "Sarah Streicher, Greg Berlanti, Sera Gamble",
+        videoId: "W7vP89A5VWo",
+        whereToWatch: "Netflix",
+        genre: "Thriller, Drama, Mystery",
+        releaseDate: "May 15, 2025",
+        rating: "8.5/10"
+    },
+    "Your Frinds & Neighbors": {
+        title: "Your Friends & Neighbors: Season 1",
+        description: "A dark comedy series that explores the complexities of relationships and human desires, focusing on a group of friends navigating their personal and romantic entanglements. As they confront their inner conflicts, they discover the unexpected consequences of their choices.",
+        directors: "Neil LaBute, Sarah Polley, Mark Duplass",
+        producers: "Lena Dunham, Adam Driver, Neil LaBute",
+        videoId: "erxeLAg85fg",
+        whereToWatch: "Hulu",
+        genre: "Comedy, Drama",
+        releaseDate: "June 10, 2025",
+        rating: "7.8/10"
     },
 
     // Missed Series
-    "Survival of the Thickest":{
-        title: "Survival of the Thickest Season 2",
-        description: "A heartwarming comedy-drama following Mavis Beaumont, a plus-size stylist navigating life's challenges and embracing self-love after a transformative breakup.",
-        directors: "Kim Nguyen, Tasha Smith, Thembi Banks, Amy Aniobi",
-        producers: "Buteaupia, SanWitz Productions, A24",
+    "24 in 24 Last Chef Standing":{
+        title: "24 in 24: Last Chef Standing",
+        description: "A high-stakes cooking competition where 24 chefs must compete in 24 intense challenges over 24 hours. As the clock ticks down, the chefs are pushed to their limits, facing both culinary and mental challenges to secure their place as the ultimate chef.",
+        directors: "David Gelb, Chris Ferguson, Michael D. Ratner",
+        producers: "Tom Colicchio, Gordon Ramsay, Joe Bastianich",
         videoId: "5gI_JvtgSzY",
-        whereToWatch: "Netflix",
-        genre: "Comedy, Drama",
-        releaseDate: "March 27, 2025",
-        rating: "N/A"
+        whereToWatch: "Discovery+",
+        genre: "Reality, Cooking, Competition",
+        releaseDate: "July 1, 2025",
+        rating: "8.2/10"
     },
-    "Dark Winds":{
-        title: "Dark Winds: Season 3",
-        description: "A gripping psychological thriller set in the 1970s Southwest, following two Navajo police officers as they confront their spiritual beliefs while investigating mysterious crimes.",
-        directors: "Various Talents",
-        producers: "Graham Roland, George R.R. Martin, Robert Redford",
+    "Godfather of Harlem Season 4":{
+        title: "Godfather of Harlem: Season 4",
+        description: "The crime drama continues as Bumpy Johnson, now at the height of his power, faces new challenges in the turbulent world of organized crime. With enemies closing in and old alliances being tested, Bumpy must fight to maintain control of Harlem and his empire.",
+        directors: "Marcello Thedford, Ernest Dickerson, John Ridley",
+        producers: "Forest Whitaker, Nina Yang Bongiovi, James A. Cooper",
         videoId: "D4gNOfTyeOA",
-        whereToWatch: "AMC, AMC+",
-        genre: "Crime, Thriller, Drama",
-        releaseDate: "March 9, 2025",
-        rating: "7.6/10"
+        whereToWatch: "Epix",
+        genre: "Crime, Drama, Thriller",
+        releaseDate: "August 12, 2025",
+        rating: "8.4/10"
     },
-    "Happy Face":{
-        title: "Happy Face",
-        description: "n intense true crime drama inspired by the real-life story of Melissa G. Moore, who, at 15, discovered her father was the notorious, Happy Face Killer. The series delves into her journey of grappling with this revelation and its aftermath.",
-        directors: "Michael Showalter",
-        producers: "CBS Studios, iHeartPodcasts, King Size Productions, Semi-Formal Productions",
+    "Government Cheese Season 1":{
+        title: "Government Cheese: Season 1",
+        description: "A compelling dramedy that follows a diverse group of individuals living in a working-class neighborhood, where they navigate the challenges of life, love, and survival in tough economic times. As they come together, they find humor and strength in their shared experiences.",
+        directors: "Kenya Barris, Sam Jay, Angela Barnes",
+        producers: "Kenya Barris, Lena Waithe, Rashida Jones",
         videoId: "NMT5cTdNAiY",
-        whereToWatch: "Paramount+",
-        genre: "True Crime, Drama",
-        releaseDate: "March 20, 2025",
-        rating: "N/A"
+        whereToWatch: "HBO Max",
+        genre: "Comedy, Drama",
+        releaseDate: "September 20, 2025",
+        rating: "7.9/10"
     },
-    "Ludwig":{
-        title: "Ludwig",
-        description: "A clever detective comedy that follows John 'Ludwig' Taylor, a reclusive puzzle setter who assumes his missing twin brother's identity, leading to unexpected adventures in crime-solving.",
-        directors: "Robert McKillop, Jill Robertson",
-        producers: "Big Talk Productions, That Mitchell and Webb Company",
+    "How to Sell Drugs Online":{
+        title: "How to Sell Drugs Online (Fast): Season 4",
+        description: "The darkly comedic drama continues as Moritz and his friends navigate the increasingly dangerous world of online drug dealing. As they try to stay ahead of law enforcement and rival criminals, the stakes get higher, leading to unexpected twists and personal challenges.",
+        directors: "Philipp Käßbohrer, Matthias Murmann",
+        producers: "Philipp Käßbohrer, Matthias Murmann, Stefanie Veit",
         videoId: "UMzOCPqbMbg",
-        whereToWatch: "BritBox, BBC",
-        genre: "Comedy, Drama, Mystery",
-        releaseDate: "March 20, 2025",
-        rating: "N/A"
-    },
-    "The Leopard":{
-        title: "The Leopard",
-        description: "A captivating historical drama based on the classic novel Il Gattopardo, exploring power, tradition, and change in 19th-century Italy.",
-        directors: "Tom Shankland, Giuseppe Capotondi, Laura Luchetti",
-        producers: "Indiana Production, Moonage Pictures",
-        videoId: "k0DS9ERfLjk",
         whereToWatch: "Netflix",
-        genre: "Drama, Historical",
-        releaseDate: "March 5, 2025",
-        rating: "N/A"
+        genre: "Comedy, Drama, Crime",
+        releaseDate: "October 5, 2025",
+        rating: "8.1/10"
+    },
+    "The Rehearsal Season 2":{
+        title: "The Rehearsal: Season 2",
+        description: "In this unique and thought-provoking series, Nathan Fielder continues to help ordinary people rehearse and simulate pivotal moments in their lives, pushing the boundaries of reality and performance. Season 2 dives deeper into the emotional and psychological aspects of these rehearsals, creating unpredictable and sometimes uncomfortable situations.",
+        directors: "Nathan Fielder, Jeremy Hirsch, Steven Katz",
+        producers: "Nathan Fielder, John Wilson, Tim Heidecker",
+        videoId: "k0DS9ERfLjk",
+        whereToWatch: "HBO Max",
+        genre: "Comedy, Reality, Drama",
+        releaseDate: "November 1, 2025",
+        rating: "8.3/10"
     } 
     // Add more series/movies here
 };
