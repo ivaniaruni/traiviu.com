@@ -154,10 +154,10 @@ const seriesInfo = {
         description: "A thrilling and mysterious drama that unfolds in a small coastal town as a series of unexplained events and secrets surface. The town’s residents must confront their pasts while navigating the tension between the supernatural and reality.",
         directors: "John Doe, Jane Smith, Michael Lee",
         producers: "Emily Turner, Daniel Foster",
-        videoId: "-xFgRf_0s_M",
+        videoId: "e1Y9KkuL2DQ",
         whereToWatch: "Netflix",
         genre: "Mystery, Thriller, Drama",
-        releaseDate: "March 22, 2025",
+        releaseDate: "April 10, 2025",
         rating: "8.3/10"
     },
     "Sherlock & Daugther":{
@@ -165,10 +165,10 @@ const seriesInfo = {
         description: "A captivating crime drama that follows the legendary Sherlock Holmes, now retired, who is drawn back into the world of investigation when his estranged daughter, a brilliant detective in her own right, seeks his help to solve a high-profile case.",
         directors: "Mark Thompson, Alice Green, Samuel Clarke",
         producers: "Sarah Jenkins, Robert Millar",
-        videoId: "RDNGEzriBI8",
+        videoId: "Q2Xj4Kb7H7Y",
         whereToWatch: "HBO Max",
         genre: "Crime, Drama, Mystery",
-        releaseDate: "April 5, 2025",
+        releaseDate: "April 16, 2025",
         rating: "8.6/10"
     },
     "The Eternaut":{
@@ -176,10 +176,10 @@ const seriesInfo = {
         description: "A gripping sci-fi thriller based on the iconic graphic novel, *The Eternaut* follows a group of survivors in a post-apocalyptic world after a deadly snowstorm covers the Earth. As they struggle to survive, they uncover dark secrets that may change the fate of humanity forever.",
         directors: "Diego Lerman, Mariano Cohn, Gabriel Medina",
         producers: "Carlos Sorin, Pablo Larrain",
-        videoId: "NpDkoSVn5Ag",
+        videoId: "egKOiW6jDeE",
         whereToWatch: "Amazon Prime Video",
         genre: "Sci-Fi, Thriller, Drama",
-        releaseDate: "April 15, 2025",
+        releaseDate: "April 30, 2025",
         rating: "8.4/10"
     },
     "The Handmaid Tale Season 6": {
@@ -187,10 +187,10 @@ const seriesInfo = {
         description: "The critically acclaimed dystopian drama continues as June Osborne fights for survival and justice in a post-Gilead world. As the rebellion intensifies, June and her allies must navigate shifting allegiances and uncover hidden truths that threaten everything they’ve fought for.",
         directors: "Bruce Miller, Kari Skogland, Mike Barker",
         producers: "Bruce Miller, Warren Littlefield, Elisabeth Moss",
-        videoId: "PnRa29-wjaM",
+        videoId: "hyVDq2bQlnU",
         whereToWatch: "Hulu",
         genre: "Dystopian, Drama, Thriller",
-        releaseDate: "April 30, 2025",
+        releaseDate: "April 8, 2025",
         rating: "9.0/10"
     },
     "You Season 5": {
@@ -198,10 +198,10 @@ const seriesInfo = {
         description: "The intense psychological thriller returns as Joe Goldberg's obsession with love and control reaches new extremes. In Season 5, Joe tries to escape his past and start over, but his dark tendencies resurface, leading to dangerous consequences that threaten everyone around him.",
         directors: "Greg Berlanti, Sera Gamble, Silver Tree",
         producers: "Sarah Streicher, Greg Berlanti, Sera Gamble",
-        videoId: "W7vP89A5VWo",
+        videoId: "kQdEHQLHDAI",
         whereToWatch: "Netflix",
         genre: "Thriller, Drama, Mystery",
-        releaseDate: "May 15, 2025",
+        releaseDate: "April 24, 2025",
         rating: "8.5/10"
     },
     "Your Frinds & Neighbors": {
@@ -209,10 +209,10 @@ const seriesInfo = {
         description: "A dark comedy series that explores the complexities of relationships and human desires, focusing on a group of friends navigating their personal and romantic entanglements. As they confront their inner conflicts, they discover the unexpected consequences of their choices.",
         directors: "Neil LaBute, Sarah Polley, Mark Duplass",
         producers: "Lena Dunham, Adam Driver, Neil LaBute",
-        videoId: "erxeLAg85fg",
+        videoId: "iVRFMd6dEOE",
         whereToWatch: "Hulu",
         genre: "Comedy, Drama",
-        releaseDate: "June 10, 2025",
+        releaseDate: "April 11, 2025",
         rating: "7.8/10"
     },
 
@@ -222,10 +222,10 @@ const seriesInfo = {
         description: "A high-stakes cooking competition where 24 chefs must compete in 24 intense challenges over 24 hours. As the clock ticks down, the chefs are pushed to their limits, facing both culinary and mental challenges to secure their place as the ultimate chef.",
         directors: "David Gelb, Chris Ferguson, Michael D. Ratner",
         producers: "Tom Colicchio, Gordon Ramsay, Joe Bastianich",
-        videoId: "5gI_JvtgSzY",
+        videoId: "2Z_Jfyj7gak",
         whereToWatch: "Discovery+",
         genre: "Reality, Cooking, Competition",
-        releaseDate: "July 1, 2025",
+        releaseDate: "April 27, 2025",
         rating: "8.2/10"
     },
     "Godfather of Harlem Season 4":{
@@ -233,10 +233,10 @@ const seriesInfo = {
         description: "The crime drama continues as Bumpy Johnson, now at the height of his power, faces new challenges in the turbulent world of organized crime. With enemies closing in and old alliances being tested, Bumpy must fight to maintain control of Harlem and his empire.",
         directors: "Marcello Thedford, Ernest Dickerson, John Ridley",
         producers: "Forest Whitaker, Nina Yang Bongiovi, James A. Cooper",
-        videoId: "D4gNOfTyeOA",
+        videoId: "m5zs078MOVQ",
         whereToWatch: "Epix",
         genre: "Crime, Drama, Thriller",
-        releaseDate: "August 12, 2025",
+        releaseDate: "April 13, 2025",
         rating: "8.4/10"
     },
     "Government Cheese Season 1":{
@@ -244,10 +244,10 @@ const seriesInfo = {
         description: "A compelling dramedy that follows a diverse group of individuals living in a working-class neighborhood, where they navigate the challenges of life, love, and survival in tough economic times. As they come together, they find humor and strength in their shared experiences.",
         directors: "Kenya Barris, Sam Jay, Angela Barnes",
         producers: "Kenya Barris, Lena Waithe, Rashida Jones",
-        videoId: "NMT5cTdNAiY",
-        whereToWatch: "HBO Max",
+        videoId: "7fQf2o2kEMQ",
+        whereToWatch: "Apple TV+",
         genre: "Comedy, Drama",
-        releaseDate: "September 20, 2025",
+        releaseDate: "April 16, 2025",
         rating: "7.9/10"
     },
     "How to Sell Drugs Online":{
@@ -255,10 +255,10 @@ const seriesInfo = {
         description: "The darkly comedic drama continues as Moritz and his friends navigate the increasingly dangerous world of online drug dealing. As they try to stay ahead of law enforcement and rival criminals, the stakes get higher, leading to unexpected twists and personal challenges.",
         directors: "Philipp Käßbohrer, Matthias Murmann",
         producers: "Philipp Käßbohrer, Matthias Murmann, Stefanie Veit",
-        videoId: "UMzOCPqbMbg",
+        videoId: "a_1-vyLcBpM",
         whereToWatch: "Netflix",
         genre: "Comedy, Drama, Crime",
-        releaseDate: "October 5, 2025",
+        releaseDate: "April 8, 2025",
         rating: "8.1/10"
     },
     "The Rehearsal Season 2":{
@@ -266,10 +266,10 @@ const seriesInfo = {
         description: "In this unique and thought-provoking series, Nathan Fielder continues to help ordinary people rehearse and simulate pivotal moments in their lives, pushing the boundaries of reality and performance. Season 2 dives deeper into the emotional and psychological aspects of these rehearsals, creating unpredictable and sometimes uncomfortable situations.",
         directors: "Nathan Fielder, Jeremy Hirsch, Steven Katz",
         producers: "Nathan Fielder, John Wilson, Tim Heidecker",
-        videoId: "k0DS9ERfLjk",
+        videoId: "2fjPFt8cpic",
         whereToWatch: "HBO Max",
         genre: "Comedy, Reality, Drama",
-        releaseDate: "November 1, 2025",
+        releaseDate: "April 20, 2025",
         rating: "8.3/10"
     } 
     // Add more series/movies here
