@@ -14,70 +14,70 @@ const modalRating = document.getElementById("modal-rating");
 // Series information (expand this list as needed)
 const seriesInfo = {
     // Upcoming Series
-    "Andor":{
-        title: "Andor: A Star Wars Story",
-        description: "The final season follows Cassian Andor’s journey from thief to rebel spy, leading directly into Rogue One: A Star Wars Story.",
-        directors: "Ariel Kleiman, Janus Metz, Alonso Ruizpalacios",
-        producers: "Lucasfilm",
-        videoId: "4YEYWrVU0jo",
-        whereToWatch: "Disney+",
-        genre: "Action, Sci-Fi, Adventure",
-        releaseDate: "April 2025",
+    "America Got Talent Season 20":{
+        title: "America's Got Talent - Season 20",
+        description: "The landmark 20th season of America's Got Talent showcases a diverse array of performers competing for the $1 million grand prize. With returning judges Simon Cowell, Howie Mandel, Sofía Vergara, and the return of Mel B, along with host Terry Crews, the season promises unforgettable auditions, thrilling live shows, and inspiring stories.",
+        directors: "N/A",
+        producers: "Fremantle, Syco Entertainment",
+        videoId: "ygtSuuZy4NU",
+        whereToWatch: "NBC, Peacock",
+        genre: "Reality, Talent Show",
+        releaseDate: "May 27, 2025",
         rating: "TBD"
     },
-    "Devil May Cry":{
-        title: "Devil May Cry",
-        description: "An animated adaptation of the popular Capcom video game franchise, following the adventures of Dante, a demon hunter who battles supernatural forces to protect humanity.",
-        directors: "Adi Shankar",
-        producers: "Netflix, Studio Mir",
-        videoId: "nbrfJAAS7Qc",
-        whereToWatch: "Netflix",
-        genre: "Action, Fantasy, Anime",
-        releaseDate: " April 3, 2025",
-        rating: "TBD"
-    },
-    "The Eternaut":{
-        title: "The Eternaut",
-        description: "Based on the classic Argentinian comic, the series follows a group of survivors in Buenos Aires facing an alien invasion and deadly weather phenomena.",
-        directors: "Bruno Stagnaro",
-        producers: "Netflix",
-        videoId: "egKOiW6jDeE",
-        whereToWatch: "Netflix",
-        genre: "ASci-Fi, Thriller",
-        releaseDate: "April 2025",
-        rating: "TBD"
-    },
-    "The Last Of Us 2":{
-        title: "The Last of Us - Season 2",
-        description: "The second season of The Last of Us continues the story of Ellie and Joel in a post-apocalyptic world, introducing new characters and exploring themes of revenge and redemption.",
-        directors: "Craig Mazin, Neil Druckmann",
-        producers: "HBO, PlayStation Productions",
-        videoId: "BOsAJ7oe2QE",
-        whereToWatch: " HBO Max",
-        genre: "Drama, Thriller, Sci-Fi",
-        releaseDate: "April 2025",
-        rating: "TBD"
-    },
-    "You":{
-        title: "You - Season 5",
-        description: "The fifth season follows Joe Goldberg’s obsessions and dangerous relationships as he navigates new cities and faces the consequences of his past.",
+    "Criminal Minds Evolution":{
+        title: "Criminal Minds: Evolution - Season 2",
+        description: "The BAU faces new challenges as they track a network of serial killers operating in the shadows. With evolving tactics and unforeseen threats, the team must adapt to confront their most formidable adversaries yet.",
         directors: "Various",
-        producers: "Netflix",
-        videoId: "xcicf6XmtnM",
-        whereToWatch: "Netflix",
-        genre: "Drama, Thriller, Crime",
-        releaseDate: "April 24, 2025",
+        producers: "ABC Signature, CBS Studios",
+        videoId: "WRxsWH4wjww",
+        whereToWatch: "Paramount+",
+        genre: "Crime, Drama, Thriller",
+        releaseDate: "June 6, 2024",
         rating: "TBD"
     },
-    "How To Sell Drugs Online Fast":{
-        title: "How To Sell Drugs Online - Season 4",
-        description: "The story of Moritz continues as he deals with new challenges in his personal and criminal life while running an online drug empire.",
-        directors: "Arne Feldhusen, Lars Montag",
-        producers: "Netflix",
-        videoId: "wZTzTcQS8jk",
-        whereToWatch: "Netflix",
-        genre: "Comedy, Drama, Crime",
+    "Murderbot Season 1":{
+        title: "Murderbot - Season 1",
+        description: "A self-aware security android, dubbed 'Murderbot,' grapples with its own sentience and a growing curiosity about human behavior. While secretly indulging in media consumption, it must navigate complex assignments and protect its human clients, all while concealing its autonomy.",
+        directors: "Chris Weitz, Paul Weitz",
+        producers: "Apple TV+, Paramount Television Studios",
+        videoId: "W0rM7LMJCzk",
+        whereToWatch: "Apple TV+",
+        genre: "Sci-Fi, Comedy, Thriller",
+        releaseDate: "May 16, 2025",
+        rating: "TBD"
+    },
+    "Poker Face Season 2":{
+        title: "Poker Face - Season 2",
+        description: "Charlie Cale continues her journey across America, solving murder mysteries with her unique ability to detect lies. In this new season, she faces even more complex and dangerous cases while staying one step ahead of those pursuing her.",
+        directors: "Rian Johnson",
+        producers: "Peacock, MRC Television",
+        videoId: "hJ6tzxg-sJM",
+        whereToWatch: " Peacock",
+        genre: "Mystery, Comedy, Drama",
         releaseDate: "April 2025",
+        rating: "TBD"
+    },
+    "The Secret Lives of Mormon Wives Season 2":{
+        title: "The Secret Lives of Mormon Wives - Season 2",
+        description: "The series follows a group of Utah-based influencers, known as 'MomTok,' as they navigate the complexities of their personal and professional lives. In Season 2, their relationships are tested, and new challenges arise that threaten to alter their group dynamic.",
+        directors: "Jeff Jenkins",
+        producers: "Hulu, Jeff Jenkins Productions",
+        videoId: "708ycCvSz3Q",
+        whereToWatch: "Hulu",
+        genre: "Reality",
+        releaseDate: "May 15, 2025",
+        rating: "TBD"
+    },
+    "The Walking Dead Dead City Season 2":{
+        title: "The Walking Dead Dead City",
+        description: "Maggie and Negan continue their perilous journey through a post-apocalyptic Manhattan, confronting new threats and challenges. As they navigate the treacherous urban landscape, their complex relationship evolves amidst the chaos of the undead.",
+        directors: "Various directors",
+        producers: "AMC Networks",
+        videoId: "ewSY2KWW9t4",
+        whereToWatch: "AMC and AMC+",
+        genre: "Horror, Drama, Thriller",
+        releaseDate: "May 4, 2025",
         rating: "TBD"
     },
     // Trending Series
