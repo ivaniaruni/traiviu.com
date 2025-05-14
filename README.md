@@ -1,4 +1,5 @@
 # ✨ Best Trailers of the Month - Traiviu
+![traiviu-web_design](https://github.com/user-attachments/assets/0101d75d-7180-4524-92f7-f99e5efe6338)
 
 ## 🎬 Description
 Traiviu is a platform dedicated to showcasing the best trailers of the month for **movies, series, and video games**. With an interactive and visually engaging design, it offers an immersive experience for entertainment enthusiasts.
